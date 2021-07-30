@@ -1,0 +1,301 @@
+sentence_id,paragraph_id,sentence,control,relation_types
+5,4,"With his interest in race cars, he formed a second company, the Henry Ford Company.",CONTROL,FOUNDER
+5,5,"During this period, he personally drove his Quadricycle to victory in a race against Alexander Winton, a well-known driver and the heavy favorite on October 10, 1901.",,NO-RELATION
+5,6,"Ford was forced out of the company by the investors, including Henry M. Leland in 1902, and the company was reorganized as Cadillac.",,NO-RELATION
+6,1,"In 1891, Ford became an engineer with the Edison Illuminating Company, and after his promotion to Chief Engineer in 1893, he had enough time and money to devote attention to his personal experiments on internal combustion engines.",,EMPLOYER
+6,2,"These experiments culminated in 1896 with the completion of his own self-propelled vehicle named the Quadricycle, which he test-drove on June 4 of that year.",,NO-RELATION
+7,1,"Ford was born on a prosperous farm in Springwells Township (now in the city of Dearborn, Michigan) owned by his parents, William Ford (1826-1905) and Mary Litogot (c1839-1876), immigrants from County Cork, Ireland.",CONTROL,NO-RELATION
+8,1,"In the years between the wars, Henry Ford supported Adolf Hitler's Nazi regime.",,NO-RELATION
+8,3,There is also some evidence that Henry Ford gave Adolf Hitler direct financial backing when Hitler was first starting out in politics.,,NO-RELATION
+8,4,"This can in part be traced to statements from Kurt Ludecke, Germany's representative to the U.S. in the 1920s, and Winifred Wagner, daughter-in-law of Richard Wagner, who said they requested funds from Ford to aid the National Socialist movement in Germany.",,NO-RELATION
+9,3,"Although Ford is often credited with the idea, contemporary sources indicate that the concept and its development came from employees Clarence Avery, Peter E. Martin, Charles E. Sorensen, and C.H.",,NO-RELATION
+10,2,Henry Ford advocated long -time associate Harry Bennett to take the spot.,,NO-RELATION
+10,3,"Edsel's widow Eleanor, who had inherited Edsel's voting stock, wanted her son Henry Ford II to take over the position.",,NO-RELATION
+11,3,"In 1879, he left home for the nearby city of Detroit to work as an apprentice machinist, first with James F. Flower & Bros., and later with the Detroit Dry Dock Co.",CONTROL,VISITED
+12,1,"Alexander Rae Baldwin III (born April 3, 1958, in Massapequa, Long Island, New York, USA) is an American actor who is the oldest and best known of the ""Baldwin brothers"", with brothers Daniel, Stephen and William.",,JOB_TITLE
+12,2,He is of three quarters Irish and one quarter French descent.,,NATIONALITY
+13,1,"Baldwin has appeared in movies such as The Cooler, The Hunt for Red October, Beetlejuice, Ghosts of Mississippi, Talk Radio, Final Fantasy: The Spirits Within (voice), The Cat in the Hat, Pearl Harbor, Thomas and the Magic Railroad, Along Came Polly, The SpongeBob SquarePants Movie, and The Aviator.",,NO-RELATION
+14,1,"When Baldwin was young, he had a job as a busboy at famous New York City disco Studio 54.",CONTROL,EMPLOYER;VISITED
+15,1,He was married to actress Kim Basinger from 1993 to 2002.,,WIFE
+16,1,"Baldwin, a liberal Democrat, has always had an active interest in politics and is frequently rumored to be a candidate for public office.",,POLITICAL_AFFILIATION
+17,2,"In particular, Baldwin is one of the most frequent hosts of Saturday Night Live, leading the show eleven times and also making cameo appearances regularly.",CONTROL,NO-RELATION
+17,3,He played William Barrett Travis in a movie about the Alamo called Thirteen Days of Glory.,,NO-RELATION
+17,4,"In 1998, he began narrating the American version of the children's series Thomas the Tank Engine and Friends.",,NO-RELATION
+18,1,"He is infamous for his 1994 appearance on Saturday Night Live as he potrays Mr. Armstrong, a scoutmaster who is a pedophile, he rips his shirt and puts his mouth around Adam Sandler's neck.",,NO-RELATION
+19,1,"Rosemary Clooney (May 23, 1928 – June 29, 2002) was an American popular singer and actress.",,JOB_TITLE;NATIONALITY
+20,1,"In 1954 she, along with Bing Crosby, Danny Kaye, and Vera-Ellen, starred in the movie White Christmas.",,NO-RELATION
+21,1,"Clooney's first recordings, in May of 1946 were for Columbia Records as a singer with the big band of Tony Pastor.",,EMPLOYER
+22,1,"Rosemary Clooney was married three times, twice to José Ferrer (from 1953 until 1961 and then again from 1964 to 1967) by whom she had five children, including actor Miguel Ferrer, born in 1955, and Gabriel Ferrer, born 1956, who married Debby Boone, and once to Dante DePaolo (whom she married in 1997).",,NO-RELATION
+23,1,"Rosemary, Betty, and brother, Nick, as well as her nephew, George Clooney (Nick's son), all became entertainers.",,NO-RELATION
+23,2,In 1945 the Clooney sisters won a spot on Cincinnati's radio station WLW as singers.,,EMPLOYER
+24,1,"She was born in Maysville, Kentucky, about 60 miles up the Ohio River from Cincinnati, Ohio to Andrew Joseph Clooney and Frances Marie Guilfoyle, both of whom were of Irish descent (Rosemary's paternal great-grandparents, Nicholas Clooney and Bridget Byron, were born in Ireland), although Clooney's paternal grandmother, Crescentia Koch, was German.",,NO-RELATION
+25,1,"In 1958, Clooney left Columbia, doing a number of recordings for MGM Records and then some for Coral Records.",CONTROL,EMPLOYER
+25,2,"Finally, toward the end of 1958, she signed with RCA Victor Records, where she stayed until 1963 except for doing some recordings in 1960 for Reprise Records.",,EMPLOYER
+25,3,"In 1964 she went to Reprise again, shifting the next year to Dot Records.",,EMPLOYER
+25,4,In 1966 she went to United Artists Records.,,EMPLOYER
+25,5,"In 1986 she sang a duet with Wild Man Fischer on ""It's a Hard Business"".",,NO-RELATION
+26,1,"Michael McManus (born February 5, 1959) is a syndicated columnist who write Ethics & Religion.",CONTROL,JOB_TITLE
+26,2,"On January 28, 2005 it was revealed that he accepted money from the George W. Bush administration to promote their marriage initiative program, which he did not disclose to his readers.",,NO-RELATION
+27,1,"Timothy Bush, Sr. (c. 1728 - c. 1815) - soldier.",,JOB_TITLE
+28,1,"He is assumed to be the son of Richard Bush and Mary Fairbanks both of Dedham, Massachusetts.",,VISITED
+29,1,By training he was a blacksmith but when the American Revolution broke out militia Captain Bush led a company of soldiers for the Continental Army.,,NO-RELATION
+29,2,"The family moved around 1810 to Springport, in Cayuga County in the Rochester, New York area.",,VISITED
+29,3,"He died in Springport, New York in 1815.",,NO-RELATION
+30,1,"Through his son Timothy Bush, Jr., who was also a blacksmith, descended two American Presidents -George H. W. Bush and George W. Bush.",,NO-RELATION
+31,1,Bush was a soldier in the French and Indian Wars and a Captain in the American Revolution and is the great-great-great-great-great grandfather of president George W. Bush.,,NO-RELATION
+32,3,"They had five children after which they relocated to Norwich, Vermont where Bush was a Captain of a militia company.",,VISITED
+33,1,"Anne Hutchinson (July 17, 1591 – August 20, 1643) was the unauthorized Puritan preacher of a dissident church discussion group, and pioneer in Rhode Island and the Bronx.",,VISITED
+34,1,"Eventually, John Winthrop decided to take Hutchinson out of power before her influence became too strong among the community's men.",,NO-RELATION
+34,2,After a two-day trial she was banished as a heretic in 1638 and led 60 followers to settle Aquidneck Island in what later became Rhode Island.,CONTROL,FOUNDER
+34,3,"They founded the town of Portsmouth, Rhode Island.",,FOUNDER
+35,1,"At the age of 21, she married William Hutchinson.",CONTROL,NO-RELATION
+35,2,"They were part of the Puritan movement, especially following the teachings of John Cotton.",,NO-RELATION
+36,1,Three U.S. Presidents (Franklin D. Roosevelt and both Bushes – George H. W. Bush and George W. Bush) are her descendants.,,NO-RELATION
+36,2,"Another descendant, Eve LaPlante, is the author of the most recent biography of Anne Hutchinson, American Jezebel: The Uncommon Life of Anne Hutchinson, the Woman Who Defied the Puritans.",,NO-RELATION
+37,1,"Hutchinson was born Anne Marbury on July 17, 1591 in Alford, Lincolnshire, England.",,NO-RELATION
+38,2,"Hutchinson emigrated from England to Massachusetts in 1634, in response to the preacher John Cotton's doing so.",,VISITED
+39,1,"She later moved yet further from her Boston-based persecutors, to what is now The Bronx in northern New York City.",,VISITED
+40,1,"Erin Fleming (August 13, 1941- April 15, 2003) was a minor actress who was best known as the companion and care-giver to Groucho Marx in his final years.",,NO-RELATION
+41,1,Fleming was born Marilyn Fleming in Canada.,CONTROL,NO-RELATION
+42,1,"Sir Andrew Fielding Huxley, OM, FRS (born 22 November 1917, Hampstead, London, England, UK) is a British physiologist and biophysicist, who won the 1963 Nobel Prize in Physiology or Medicine for his work with Alan Lloyd Hodgkin on the basis of nerve ""action potentials,"" the electrical impulses that enable the activity of an organism to be coordinated by a central nervous system.",,AWARD;JOB_TITLE;NATIONALITY
+42,2,"Hodgkin and Huxley shared the prize that year with John Carew Eccles, who was cited for research on synapses.",,NO-RELATION
+43,1,"Huxley was a son of the writer and editor Leonard Huxley by his second wife Rosalind Bruce, and hence half-brother of Aldous Huxley and fellow biologist Julian Huxley and grandson of the biologist T. H. Huxley.",,NO-RELATION
+44,1,"Albert Einstein (March 14, 1879 – April 18, 1955) was a German-born Jewish theoretical physicist of German, Swiss and American citizenship, who is widely regarded as the greatest scientist of the 20th century or even of all time, ranking alongside the luminaries Newton and Gauss.",,JOB_TITLE;NATIONALITY
+44,3,"He was awarded the 1921 Nobel Prize for Physics for his explanation of the photoelectric effect in 1905 (his ""miracle year"") and ""for his services to Theoretical Physics"".",,AWARD
+45,1,Einstein attended the Luitpold Gymnasium where he received a relatively progressive education.,,EDUCATION
+46,1,"In the spring of 1896, the Serbian Mileva Marić (an acquaintance of Nikola Tesla) started initially as a medical student at the University of Zurich, but after a term switched to the same section as Einstein as the only woman that year to study for the same diploma.",,NO-RELATION
+47,1,"Einstein married Mileva Marić on January 6, 1903.",,WIFE
+47,4,"Abram Joffe, a Soviet physicist who knew Einstein, in an obituary of Einstein, wrote, ""The author of [the papers of 1905] was ... a bureaucrat at the Patent Office in Bern, Einstein-Marić"" and this has recently been taken as evidence of a collaborative relationship.",,NO-RELATION
+48,4,"He and Mileva had an illegitimate daughter Lieserl, born in January 1902.",CONTROL,NO-RELATION
+49,1,"In 1894, following the failure of Hermann's electrochemical business, the Einsteins moved from Munich to Pavia, Italy (near Milan).",,VISITED
+50,1,"Despite excelling in the mathematics and science portion, his failure of the liberal arts portion of the Eidgenössische Technische Hochschule (ETH, Swiss Federal Institute of Technology, in Zurich) entrance exam the following year was a setback; his family sent him to Aarau, Switzerland, to finish secondary school, where he received his diploma in September 1896.",,VISITED
+50,3,"Albert's sister Maja was to later marry their son Paul, and his friend Michele Besso married their other daughter Anna.",,NO-RELATION
+50,5,"The same year, he renounced his Württemberg citizenship and became stateless.",,NATIONALITY
+51,1,"On May 14, 1904, the couple's first son, Hans Albert Einstein, was born.",,NO-RELATION
+52,1,"Einstein was born at Ulm in Baden-Württemberg, Germany, about 100 km east of Stuttgart.",CONTROL,NO-RELATION
+52,4,"The family was Jewish (non-observant); Albert attended a Catholic elementary school and, at the insistence of his mother, was given violin lessons.",,EDUCATION
+53,1,"Miguel Ferrer (born February 7, 1955 in Santa Monica, California) is a Puerto Rican-American actor who is often cast in movies as a villain.",,JOB_TITLE;NATIONALITY
+54,1,"In 1983, Miguel was given a small part as a waiter in the movie The Man Who Wasn't There.",,NO-RELATION
+54,2,He was also given a small part in Star Trek III: The Search for Spock as the Excelsior helm officer.,,NO-RELATION
+55,1,Miguel was the oldest of five children born to Oscar winner Jose Ferrer and singer Rosemary Clooney-Ferrer.,CONTROL,NO-RELATION
+55,2,Miguel was raised amongst all the splendor and glamour of Hollywood.,,VISITED
+55,3,"As a child, his hero was Batman, and as a teenager his interests shifted towards music.",CONTROL,NO-RELATION
+55,5,Miguel played the drums on Keith Moon's Two Sides of the Moon.,,NO-RELATION
+55,6,"Band mate Billy Mumy (""Will Robinson"" on the T.V. classic Lost In Space) cast Miguel as a drummer in his first television role, in the series Sunshine.",,NO-RELATION
+56,1,"Among the many television shows in which Miguel has made guest appearances are: Miami Vice, CHiPs, Will & Grace, Superman, Tales from the Crypt and Twin Peaks.",,NO-RELATION
+56,2,He also starred in the mini series The Stand.,,NO-RELATION
+56,3,Miguel played the role of Dr. Garret Macy in NBC's drama Crossing Jordan.,,EMPLOYER
+56,4,"In 1999, at the 41st Grammy Awards, Miguel was nominated for ""Best Spoken Word Album for Children"" in Disney's The Lion King II, ""Simba's Pride Read-Along"".",,NO-RELATION
+56,6,"In 2003, Miguel made his New York stage debut in the Off-Broadway production of The Exonerated.",,VISITED
+57,2,His cousin is actor George Clooney.,CONTROL,NO-RELATION
+57,3,His brother Gabriel Ferrer is married to singer Debby Boone.,,NO-RELATION
+57,4,Miguel was close friends with actress Dominique Dunne and in 1982 served as a pallbearer in her funeral.,,NO-RELATION
+58,1,"William Hindman (April 1, 1743 – January 19, 1822) was an American lawyer and statesman from Talbot County, Maryland.",,NATIONALITY
+58,2,"He represented Maryland in the Continental Congress, and in the federal Congress as both the Representative and a U.S.",,JOB_TITLE
+59,2,"Senator James Lloyd resigned, and Hindman was named to finish his term.",,NO-RELATION
+59,3,He served in the United States Senate from December of 1800 until November of 1801.,,NO-RELATION
+59,4,"In the Senate, he was aligned with the Federalists.",,POLITICAL_AFFILIATION
+60,1,"William was born in Dorchester County, Maryland, the second son of Jacob Hindman (1713-1766) and Mary Trippe Hindman (died 1782).",,NO-RELATION
+60,3,"William studied law at the Inns of Court in London, returning to Maryland in 1765.",,EDUCATION;VISITED
+61,1,"Hindman died in Baltimore, Maryland and is buried in St. Paul’s Burial Ground there.",,NO-RELATION
+62,2,"In 1792 voters returned him the state Senate, but later that year he was appointed to the United States House of Representatives after the resignation of Joshua Seney.",,NO-RELATION
+63,1,"From 1775 and 1777, Hindman served in Maryland’s revolutionary government, as the state’s Treasurer for the Eastern Shore.",,VISITED
+64,1,"Clive Jay Davis (born April 4, 1934) is the founder of Arista Records, and member of the Rock and Roll Hall of Fame as a nonperformer.",,FOUNDER
+65,1,"He was a working class Jewish boy who grew up in Brooklyn, New York.",CONTROL,NO-RELATION
+65,2,He graduated from New York University`s College of Arts and Sciences in 1953 and received a scholarship to Harvard Law School.,,EDUCATION
+65,4,He was then hired by the legal department of CBS subsidiary Columbia Records.,,EMPLOYER
+66,1,"In 1974, he founded Arista Records, naming it after his secondary school honor society.",,FOUNDER
+67,1,"Erasmus Darwin (December 12, 1731 – April 18, 1802) trained as a physician and wrote extensively on medicine and botany, as well as poetry.",,JOB_TITLE
+67,2,"He lived in Lichfield and Derby, England.",CONTROL,VISITED
+67,3,He was one of the founder members of the Lunar Society.,CONTROL,FOUNDER
+67,4,"He was a member of the Darwin-Wedgwood family, most famously including his grandson, Charles Darwin.",,NO-RELATION
+68,1,"He was born near at Elston Hall near Nottingham, and educated at Chesterfield School then later at St. John's College, Cambridge.",,EDUCATION
+68,2,He obtained his degree at Edinburgh Medical School.,,EDUCATION
+68,4,He practised medicine in Lichfield in Staffordshire for twenty years; George III invited him to be royal physician but he declined.,,VISITED
+68,5,"In 1781 he moved to Derby, where he died suddenly on the 18th of April 1802.",,VISITED
+69,1,"His most important scientific work is his Zoönomia (1794–1796), which contains a system of pathology, and a treatise on ""generation,"" in which he, in the words of his famous grandson, Charles Robert Darwin, anticipated the views of Jean-Baptiste Lamarck, who in turn is regarded to have foreshadowed the theory of evolution.",,NO-RELATION
+70,1,"Eunice Mary Kennedy Shriver (born July 10, 1921 in Brookline, Massachusetts) is a member of the Kennedy family.",,NO-RELATION
+70,2,"Her father was Joseph P. Kennedy, Sr., and her mother was Rose Kennedy.",,NO-RELATION
+71,1,"On May 23, 1953, she married Robert Sargent Shriver, Jr., who was U.S. ambassador to France from 1968 to 1970, and was Democratic vice-presidential candidate in 1972.",,NO-RELATION
+72,1,"She actively campaigned for her brother John F. Kennedy, and supported Arnold Schwarzenegger's successful bid for governor of California in 2003.",,NO-RELATION
+73,1,"King married Coretta Scott on June 18, 1953.",,WIFE
+73,2,"The wedding ceremony took place in Scott's parents' house in Marion, Alabama, and was performed by King's father.",CONTROL,VISITED
+74,1,"In 1953, King became the pastor of the Dexter Avenue Baptist Church in Montgomery, Alabama.",,VISITED
+75,1,"The Reverend Martin Luther King, Jr. Ph.D., Boston University (January 15, 1929 – April 4, 1968) was an American Nobel Laureate, Baptist minister, and African American civil rights activist.",,AWARD;JOB_TITLE;NATIONALITY
+75,4,He also was awarded the Presidential Medal of Freedom.,,AWARD
+76,1,"Following the campaign, King was instrumental in the founding of the Southern Christian Leadership Conference (SCLC) in 1957, a group created to harness the moral authority and organizing power of black churches to conduct nonviolent protests in the service of civil rights reform.",,FOUNDER
+76,3,"The organization's nonviolent principles were criticized by the younger, more radical blacks and challenged by the Student Nonviolent Coordinating Committee (SNCC) then headed by James Foreman.",,NO-RELATION
+77,1,"King was born in Atlanta, Georgia to the Rev. Martin Luther King, Sr. and Alberta Williams King.",,NO-RELATION
+77,4,He graduated from Morehouse College with a Bachelor of Arts degree in Sociology in 1948.,,EDUCATION
+77,5,"His application to Yale Divinity School was rejected, and he graduated from Crozer Theological Seminary in Chester, Pennsylvania [1] with a Bachelor of Divinity in 1951.",,EDUCATION
+77,6,He received his Ph.D. in Systematic theology from Boston University in 1955.,CONTROL,EDUCATION
+78,1,"Gail Davis (born October 5, 1925; died March 15, 1997) was an American actress.",,NATIONALITY
+79,1,"She and her husband moved to Hollywood, California to pursue a career in motion pictures and in 1947, as ""Gail Davis,"" she made her motion picture debut in a comedy film short.",,VISITED
+79,2,She then appeared in minor roles in another four films until landing a supporting role under star Roy Rogers in a 1948 Western film called The Far Frontier.,,NO-RELATION
+79,3,"Between then and 1953, Davis appeared in more than three dozen films, of which all but three were in the Western genre and that included fourteen films with the singing cowboy star, Gene Autry.",,NO-RELATION
+79,4,"In 1950, she began to guest star in television Westerns, notably in the ""Lone Ranger"" and ""Cisco Kid"" series plus more than a dozen appearances on the ""Gene Autry Show"".",,NO-RELATION
+80,1,"Gail Davis passed away from cancer in 1997 in Los Angeles, California and was interred there in the Forest Lawn - Hollywood Hills Cemetery.",,NO-RELATION
+81,1,"The daughter of a small town medical doctor, she was born Betty Jeanne Grayson in a hospital at Little Rock, Arkansas.",CONTROL,NO-RELATION
+81,2,"Her family lived in McGehee, Arkansas where she was raised until they moved to Little Rock.",,VISITED
+81,3,"She had been singing and dancing since childhood and after graduating from high scool in Little Rock, she went to study drama at girl's college in Bryn Mawr, Pennsylvania before completing her education at the University of Texas in Austin.",,EDUCATION;VISITED
+82,1,"Between 1954 and 1956, Gail Davis starred as the Western sharpshooter, Annie Oakley in the Annie Oakley television series on the ABC network.",,EMPLOYER
+83,1,"Elvis Aron Presley (January 8, 1935 – August 16, 1977), also known as The King of Rock and Roll (sometimes shortened to The King) was an American singer and actor.",,JOB_TITLE;NATIONALITY
+84,1,"The movies Jailhouse Rock (1957), King Creole (1958), and Flaming Star (1960) are widely regarded as his best among film critics.",,NO-RELATION
+84,2,"Among fans, Blue Hawaii (1961) and Viva Las Vegas (1964) are also highly praised.",,NO-RELATION
+85,1,"Elvis Aron Presley was born in a two-room house in East Tupelo, Mississippi to Vernon Elvis Presley and Gladys Love Smith.",,NO-RELATION
+86,1,"Elvis Presley was raised both in East Tupelo (which merged with Tupelo in 1948) and later in Memphis, Tennessee, where his family moved when he was 13.",CONTROL,VISITED
+86,2,Elvis had a twin brother (Jesse Garon Presley) who died at birth.,,NO-RELATION
+87,1,"Beginning with Love Me Tender (opened on November 15, 1956), Presley starred in 31 motion pictures, having signed to multiple long-term contracts on the advice of his manager.",,NO-RELATION
+87,3,"Elvis was praised by all his directors, including the highly respected Michael Curtiz, as unfailingly polite and extremely hardworking.",,NO-RELATION
+88,1,"Niels Fabian Helge von Koch (January 25, 1870 - March 11, 1924) was a Swedish mathematician, who gave his name to the famous fractal known as the Koch curve, which was one of the earliest fractal curves to have been described.",,JOB_TITLE;NATIONALITY
+89,2,"His grandfather, Nils Samuel von Koch (1801-1881), was the Attorney-General (""Justitiekansler"") of Sweden.",,VISITED
+90,1,"John Quincy Adams (July 11, 1767 – February 23, 1848) was the sixth (1825-1829) President of the United States.",,JOB_TITLE
+90,2,"The son of President John Adams and First Lady Abigail Smith, he was the only son of a former President to become President himself until George W. Bush took office in 2001.",,NO-RELATION
+91,1,"He was Secretary of State in the Cabinet of President James Monroe from 1817 to 1825, a tenure during which he was instrumental in the acquisition of Florida and in keeping the United States from becoming dependent on England.",,JOB_TITLE
+92,1,Adams's son Charles Francis also pursued a career in politics.,CONTROL,NO-RELATION
+93,3,"While serving as Secretary of State under President James Monroe, Adams negotiated the Adams-Onís Treaty with Spain and devised the Monroe Doctrine, both of which were of long lasting importance.",,JOB_TITLE
+94,1,"Adams was born in Braintree, Massachusetts in a part of town which eventually became the separate town of Quincy.",,NO-RELATION
+94,3,He acquired his early education in Europe at venerable institutions such as the University of Leiden while accompanying his father while the elder Adams was serving as an American envoy to France and later the Netherlands during the Revolutionary War.,,EDUCATION;VISITED
+94,4,He graduated from Harvard University in 1787 and was elected to Phi Beta Kappa.,,EDUCATION
+94,5,He studied law after which he was admitted to the bar and commenced practice in Boston.,,VISITED
+95,1,"Adams was elected to the U.S. House of Representatives in 1830, one of only two U.S. Presidents to serve in Congress after having been President.",,NO-RELATION
+96,1,"Although Adams lost in both the popular and electoral votes in the Presidential election of 1824, none of the candidates were able to secure a majority of the electoral vote, thereby putting the outcome in the hands of the House of Representatives, which to the surprise of many elected Adams over rival Andrew Jackson.",,NO-RELATION
+96,2,"Some say this was because of a bargain he struck with Henry Clay, which put Clay into office as his Secretary of State once Adams won.",,NO-RELATION
+96,4,"During this time he worked on developing a federal system of roads, canals, bridges, lighthouses, and universities until Jackson, who defeated Adams in the latter's quest for re-election, was sworn in to replace him.",,NO-RELATION
+97,1,"President George Washington appointed him Minister to the Netherlands in 1794, Minister to Portugal in 1796 and Minister to Prussia in 1797.",,VISITED
+97,2,"While serving abroad, he met Louisa Catherine Johnson, the daughter of an American merchant living abroad.",,WIFE
+98,1,Adams received one electoral vote in the presidential election of 1820.,CONTROL,NO-RELATION
+99,1,"Rather than retire, Adams would go on to win election as a Democratic-Republican to the House of Representatives beginning with the 22nd Congress, serving from March 4, 1831, until his death.",,POLITICAL_AFFILIATION
+100,1,"Aldous Leonard Huxley (July 26, 1894 – November 22, 1963) was a British writer who emigrated to the United States.",,VISITED;JOB_TITLE;NATIONALITY
+100,2,He was a member of the famous Huxley family who produced a number of brilliant scientific minds.,,NO-RELATION
+101,2,"He wrote great novels on dehumanising aspects of scientific progress, most famously Brave New World, and on pacifist themes (e.g. Eyeless in Gaza).",,NO-RELATION
+101,4,Huxley was strongly influenced by F. Matthias Alexander and included him as a character in Eyeless in Gaza.,,NO-RELATION
+102,1,"Huxley was born in Godalming, Surrey, England.",,NO-RELATION
+102,2,"He was the son of the writer Leonard Huxley by his first wife, Julia Arnold; and grandson of Thomas Henry Huxley, one of the most important naturalists of the 19th Century, a man known as ""Darwin's Bulldog.""",,NO-RELATION
+102,3,His brother Julian Huxley was a biologist also noted for his evolutionary theories.,,NO-RELATION
+103,1,"John Wells (November 17, 1936 - January 11, 1998) was a British actor, writer and satirist.",,JOB_TITLE
+104,1,"Wells began his television career as a writer on That Was The Week That Was, the 1960s weekly satire show that launched the careers of David Frost and Millicent Martin, among others.",,NO-RELATION
+104,2,"Besides making cameo appearances in films such as Casino Royale (1967), television dramas like Casanova (1987), and comedy shows like Yes, Minister, he also wrote television scripts and screenplays, notably Princess Caraboo (1994).",,NO-RELATION
+105,1,In 1997 he appeared in the BBC situation comedy Chalk.,,NO-RELATION
+106,1,Bartholomew J. Simpson (voiced by Nancy Cartwright) is a fictional character featured in the animated television series The Simpsons.,,NO-RELATION
+106,2,He is the 10-year-old son of Homer and Marge Simpson and older brother of Lisa and Maggie.,,NO-RELATION
+107,1,"Roy Stanley Geiger (January 25, 1885 – January 23, 1947) was a United States Marine Corps general who, during World War II, became the first Marine to lead an army.",,JOB_TITLE
+108,1,"Geiger was born in Middleburg, Florida.",CONTROL,NO-RELATION
+108,2,"He attended Florida State Normal and Industrial College and received an LLB from Stetson University, after which he enlisted in the Marine Corps.",,AWARD;EDUCATION
+108,3,He was commissioned a Second Lieutenant on 5 February 1909.,,JOB_TITLE
+109,1,"Following attendance at the Marine Officers' School at Port Royal, South Carolina, he served as a member of the Marine detachments aboard Wisconsin (BB-9) and Delaware (BB-28).",,VISITED
+110,1,For his part in this action he was awarded the Distinguished Service Medal.,,AWARD
+111,1,"Geiger commanded the III Amphibious Corps in the battle of Okinawa, where he assumed command of the U.S. Tenth Army upon the combat death of Lt. General Simon Bolivar Buckner, Commanding General of the Tenth Army.",,NO-RELATION
+111,2,Geiger led the Tenth Army until relieved by General Joseph Stilwell.,,NO-RELATION
+112,1,"Culbert Levy Olson (November 7, 1876 - April 13, 1962) was a U.S. politician.",,JOB_TITLE;NATIONALITY
+113,1,"He was born in Fillmore, Utah to Daniel Olson and his wife Delilah King.",,NO-RELATION
+114,1,"He served as the Governor of California from January 2, 1939 until January 4, 1943, and was the only Democrat elected to that office between 1898 and 1954.",,POLITICAL_AFFILIATION;JOB_TITLE
+114,2,In his 1942 bid for re-election he was defeated by state Attorney General Earl Warren.,,NO-RELATION
+115,1,He later became president of the United Secularists of America.,,NO-RELATION
+116,1,"He died in Los Angeles at age 85, and was buried in Forest Lawn Memorial Park Cemetery in suburban Glendale.",,NO-RELATION
+117,1,"Prescott Sheldon Bush (May 15, 1895, Columbus, Ohio – October 8, 1972, New York City) was a U.S.",,JOB_TITLE
+117,2,Senator from Connecticut and a Wall Street executive banker with Brown Brothers Harriman.,,EMPLOYER
+117,3,"His son, George H. W. Bush, and grandson George W. Bush would both later become U.S. presidents.",,NO-RELATION
+117,4,His father was Samuel Prescott Bush and his mother was Flora Sheldon.,CONTROL,NO-RELATION
+118,1,"He married Dorothy Walker, George Herbert Walker's daughter, on August 6, 1921, and together they had five children, including George H. W. Bush (named after George Herbert Walker), Prescott Bush, Jr., Jonathan Bush, William Bush, and Nancy Bush.",,WIFE
+118,2,"Among those attending the Kennebunkport, Maine wedding ceremony were Isabel Stillman Rockefeller (daughter of Percy Rockefeller), Hope Lincoln, Mary Keck, Elizabeth Trotter, Martha Pittman, Ruth Lionberger, Nancy Walker, George Herbert Walker, Knight Wooley, Frank Shephard, John Shepley, Richard Bentley, Henry Isham, William Potter Wear, and Henry Fenimore Cooper.",,VISITED
+119,1,"His father-in-law, George Herbert Walker, and Walker's partner, Averell Harriman, brought him on as an officer in their investment banking firm, W. A. Harriman and Company in 1926.",,EMPLOYER
+119,2,"When it merged with Brown Brothers in 1931, he became a partner in the new firm of Brown Brothers Harriman.",,EMPLOYER
+119,3,"Bush called it ""my good fortune"" to work with close friends, including Yale classmates (and members of the Skull and Bones) E. Roland Harriman, Knight Woolley, and Ellery James, as well as Robert A. Lovett and Thomas McCance.",,NO-RELATION
+120,1,"He maintained homes in Long Island, New York and Greenwich, Connecticut; the family compound at Kennebunkport, Maine; a 10,000 acre (40 km²) plantation in South Carolina; and an island retreat in Florida.",,VISITED
+121,1,"After graduation, he served as a field artillery captain with the American Expeditionary Forces (1917-1919) during World War I.",,NO-RELATION
+121,2,He received training in intelligence at Verdun and was briefly assigned to a staff of French officers.,,VISITED
+121,3,"Alternating between intelligence and artillery, Bush came under fire in the Meuse-Argonne offensive.",,NO-RELATION
+122,1,"The Bushes moved to Columbus, Ohio, in 1923, where Bush worked for the Hupp Products Company, where his business efforts generally failed.",,VISITED
+122,2,"He left in November 1923 to become president of sales for Stedman Products of South Braintree, Massachusetts.",,VISITED
+122,4,"In 1925, he joined the United States Rubber Company (based in New York City) as manager of the foreign division, and moved to Greenwich, Connecticut.",,EMPLOYER;VISITED
+123,1,"In 1952 he was elected to the U.S. Senate (Republican, Connecticut), defeating Abraham Ribicoff for the vacancy caused by the death of James O'Brien McMahon.",,NO-RELATION
+123,2,"He served until January 1963, and was a staunch supporter of President Dwight D. Eisenhower.",,NO-RELATION
+124,1,"As a managing partner of Brown Brothers Harriman, he sat on several corporate boards, including the following:",CONTROL,EMPLOYER
+125,1,"Bush was born in Columbus, Ohio to Flora Sheldon and Samuel Prescott Bush, a steel company president and later a U.S. government official in charge of coordination and assistance to major weapons contractors during World War I.",,NO-RELATION
+126,1,"After attending the Douglas School in Columbus and St. George's School in Newport, Rhode Island as well as the famous Stonyhurst College in England (where he designed the boys' golf course still in use today) from 1908 to 1913, Bush entered Yale University.",,EDUCATION;VISITED
+126,2,"There, he played varsity golf, football, and baseball, and was president of the Yale Glee Club.",,NO-RELATION
+126,5,"On May 18, 1916 he was ""tapped"" to join the Skull and Bones society at Yale.",,NO-RELATION
+126,6,"Other new ""Bonesmen"" that year were E. Roland Harriman, H. S. Fenimore Cooper (grandson of James Fenimore Cooper), Knight Wooley (son of Ulysses Grant Wooley), Ellery James, and Henry Neil Mallon.",,NO-RELATION
+127,1,"He was a member of the Executive Committee of the United States Golf Association (USGA) from 1928-1935, serving successively as Secretary, Vice President and President.",,NO-RELATION
+128,1,"After his discharge in 1919, Bush went to work for the Simmons Hardware Company in St. Louis, Missouri.",,VISITED
+129,2,"From 1947 to 1950 he served as Connecticut Republican finance chairman, and was the Republican candidate for the United States Senate in 1950, losing to Senator William Benton by only 1,000 votes.",,NO-RELATION
+129,3,"The following year, Bush was Connecticut chairman of the United Negro College Fund, and was one of the UNCF's earliest supporters.",,NO-RELATION
+130,1,"Talia Shire (born April 25, 1946) is an American actress of Italian descent.",,NATIONALITY
+131,1,She is the mother of actors Jason and Robert Schwartzman and aunt to actor Nicolas Cage.,CONTROL,NO-RELATION
+132,1,"Born Talia Rose Coppola in Lake Success, Long Island, New York, she is the sister of director and producer Francis Ford Coppola.",,NO-RELATION
+133,1,"Shire became famous for her roles as the wife of boxer Rocky Balboa in the Rocky movies, and for her role in The Godfather and its sequels.",,NO-RELATION
+133,2,"She was nominated for the Academy Award for Best Supporting Actress for The Godfather, Part II and for the Best Actress in a Leading Role for Rocky.",,AWARD
+134,2,"Margaret Tyndal Winthrop (February 23, 1880 – July 7, 1970) was the maternal grandmother of U.S. Senator John Kerry, the Presidential candidate.",,NO-RELATION
+134,3,"(Winthrop's daughter, Rosemary Isabel Forbes, was Kerry's mother.)",,NO-RELATION
+135,1,"Winthrop died at St. Briac Sur Mer, Ille-et-Vilaine, France.",CONTROL,NO-RELATION
+136,1,"Other notable figures in this branch of the family tree are Franklin D. Roosevelt (Kerry's 4th cousin twice removed), Jane Addams, Calvin Coolidge (Kerry's 8th cousin once removed), and ironically, George H.W. Bush (Kerry's 9th cousin once removed), and George W. Bush (Kerry's 9th cousin, twice removed).",,NO-RELATION
+136,3,"[1] She also has some relation to all the royal houses of Europe, including such figures as Henry III, Henry II, Henry I, Richard the Lionheart, and Russian czar Ivan the Terrible.",,NO-RELATION
+137,2,She was born in Massachusetts and raised in Boston.,,VISITED
+137,3,"Her grandfather was Robert Charles Winthrop, the conservative Whig Speaker of the House and a U.S. Senator",,NO-RELATION
+137,5,"Her ancestors include James Bowdoin, former governor of Maine, and John Winthrop, the first governor of the Massachusetts Bay Colony.",,NO-RELATION
+138,1,"David Manners (April 30, 1901 – December 23, 1998) was a Canadian film actor.",,JOB_TITLE;NATIONALITY
+139,1,"Born Rauff de Rither Duan Acklom in Halifax, Nova Scotia, Manners came to Hollywood at the beginning of the talking films revolution after studying acting with Eva Le Gallienne, and acting on stage with Helen Hayes.",,VISITED
+140,3,"In 1940, he officially changed his name to David Joseph Manners and became a naturalized citizen of the United States.",CONTROL,VISITED
+141,1,"He was ""discovered"" by the film director James Whale, and within a few years, he was a popular leading man, playing opposite such up and coming actresses as Katharine Hepburn, Gloria Stuart, Myrna Loy, Loretta Young, and Ann Dvorak, and he was paired several times with Helen Chandler.",,NO-RELATION
+142,1,"His most widely seen role was as Jonathan Harker in Tod Browning's Dracula (1931), though he commented throughout his life that he had never watched the film and did not intend to.",,NO-RELATION
+143,1,"He died in Santa Barbara, California.",,NO-RELATION
+144,1,"Elliott Roosevelt (September 23, 1910 – October 27, 1990), World War II hero and an author, was the son of President Franklin Delano Roosevelt and his wife Eleanor Roosevelt.",,NO-RELATION
+145,1,"During World War II, he accompanied FDR as a military aide to the Casablanca meeting of 1943 and the subsequent Cairo and Tehran Conferences.",,VISITED;JOB_TITLE
+146,1,"As an Army photo reconnaissance pilot, he and the men in his unit also played a key role in the D-Day landings.",,NO-RELATION
+147,1,Colonel Elliot Roosevelt was a pilot in the United States Army Air Force (USAAF) during World War II.,,NO-RELATION
+147,2,He flew a P-38 Lightning in the North African campaign of November 1942.,,NO-RELATION
+148,1,On 28 February 1934 he and Anthony Fokker each received an excessive half a million dollars for selling fifty military planes to the Soviet government.,,NO-RELATION
+148,2,"Elliot and Fokker were able to receive such a large commission because Elliot had close connections to the U.S. Export-Import Bank through his father, Franklin Delano Roosevelt.",,EMPLOYER
+149,1,Stella Dorothea Gibbons (5 January 1902—19 December 1989) was an English novelist and poet.,CONTROL,JOB_TITLE;NATIONALITY
+149,2,Her works include Cold Comfort Farm.,,NO-RELATION
+151,1,Keynes was educated at Oundle School.,,EDUCATION
+152,1,"Keynes (pronounced ""Canes"") was born in London, the eldest son of Geoffrey Keynes, and thus the nephew of the economist John Maynard Keynes; and Geoffrey Keynes' wife Elizabeth (née Darwin), the grand-daughter of Charles Darwin, and thus the great-grandson of Charles Darwin (see Darwin -- Wedgwood family).",,NO-RELATION
+153,1,"Charles Francis Adams, Jr. (May 27, 1835 – May 20, 1915), a member of the prominent Adams political family and son of Charles Francis Adams, Sr., graduated at Harvard in 1856, and served on the Union side in the American Civil War, receiving in 1865 the brevet of brigadier-general in the regular army.",,JOB_TITLE
+153,2,"He was president of the Union Pacific Railroad from 1884 to 1890, having previously become widely known as an authority on the management of railways.",,NO-RELATION
+154,1,His son Charles Francis Adams was Secretary of the Navy and a renowned yachtsman.,,NO-RELATION
+155,1,"Jean Tardieu (born in St Germain de Joux, France November 1, 1903, died in Créteil, France January 27, 1995) was an artist, musician, poet and dramatic author.",,JOB_TITLE
+156,2,He is often associated with the Theatre of the Absurd.,,NO-RELATION
+157,1,"John Eric Austin (born August 21, 1944, in Blaby, Leicestershire) is a British Member of Parliament for Erith and Thamesmead.",,JOB_TITLE
+157,2,He is a member of the Labour Party.,,NO-RELATION
+157,3,He worked as a social worker and was leader of Greenwich council before entering Parliament.,CONTROL,JOB_TITLE
+158,1,Austin is a member of the left-wing Socialist Campaign Group.,,NO-RELATION
+158,2,He stated his intention to act as a stalking horse against Tony Blair.,,NO-RELATION
+158,4,"He indicated his hope that, in the event of an election, Gordon Brown would enter.",,NO-RELATION
+159,1,"Robert Strange McNamara (born June 9, 1916) is an American business executive and a former United States Secretary of Defense.",,JOB_TITLE;NATIONALITY
+159,3,He resigned that position to become President of the World Bank (1968-1981).,,NO-RELATION
+160,1,McNamara was born in San Francisco where his father was sales manager of a wholesale shoe firm.,CONTROL,NO-RELATION
+160,2,"He graduated in 1937 from the University of California, Berkeley with a degree in economics and philosophy, and earned a master's degree from the Harvard Graduate School of Business Administration in 1939.",,EDUCATION
+161,1,"He worked a year for the accounting firm of Price Waterhouse in San Francisco, and then in August 1940 returned to Harvard to teach in the Business School.",,EMPLOYER;VISITED
+161,2,"Following his involvement there in a program to teach the analytical approaches used in business to officers of the Army Air Forces, he entered the Army as a captain in early 1943, serving under Col. Curtis LeMay with analysis of U.S. bombers' efficiency and effectiveness as a major responsibility.",,JOB_TITLE
+161,3,He left active duty three years later with the rank of lieutenant colonel.,,JOB_TITLE
+161,4,"During this period, McNamara helped to plan the 1945 bombing of Tokyo.",,NO-RELATION
+162,1,"In 1946 McNamara joined Ford Motor Company, which he later said had been the result of a Life magazine article which reported how few college-educated managers there were at the then unprofitable company.",,NO-RELATION
+163,1,President-elect John F. Kennedy first offered the post of secretary of defense to former secretary Robert A. Lovett.,,NO-RELATION
+163,2,"Lovett declined but recommended McNamara; Kennedy had him approached by Sargent Shriver (regarding either the Treasury or the Defense cabinet post), and less than five weeks after becoming president at Ford, McNamara accepted Kennedy's invitation to serve as Secretary of Defense.",,JOB_TITLE
+164,1,He also created the Defense Intelligence Agency and the Defense Supply Agency.,,FOUNDER
+165,1,"Mary Lilian Baels (November 28, 1916 – June 7, 2002) was best known as Princess de Réthy, the controversial morganatic second wife of King Léopold III of the Belgians.",,NO-RELATION
+166,1,"Mary Lilian Lucy Josepha Monique Baels was born in Highbury, London, England, one of eight children of Henri Baels, an attorney and fish trader from Ostend, Belgium, and his wife Anne Marie de Visscher, who were living in England during World War I.",,NO-RELATION
+167,2,He is also notable in that he is the great great great grandfather of President George W. Bush through his son Reverend James Smith Bush.,,NO-RELATION
+168,1,"He was the son of a blacksmith Timothy Bush, Jr. and Lydia Newcomb and was born in Penfield, Monroe Co., New York on January 28, 1797.",CONTROL,NO-RELATION
+169,2,"He was a participant in the Underground Railroad, and even petitioned the New York state Legislature to secede from the Union in a protest against slavery.",,NO-RELATION
+170,1,"Eventually Obadiah, Henry and possibly another brother or two went off to find their fortunes in the California Gold Rush of 1849.",,NO-RELATION
+171,1,"Robert Henry Dee (born May 18, 1933 in Quincy, Massachusetts) is a former three-sport letterman at Holy Cross College who was one of the first players signed by the Boston Patriots in 1960.",,EDUCATION
+171,2,"Another example of a player misjudged by the NFL, he became an ironman of the American Football League who never missed a game during his career, starting 112 consecutive games.",,NO-RELATION
+171,5,"He was voted to five American Football League All-Star teams (1961, 1963-65).",,NO-RELATION
+172,1,"Joseph H. Ball (November 3, 1905 - December 18, 1993) was an American politician.",CONTROL,JOB_TITLE;NATIONALITY
+172,2,He served in the United States Senate as a Republican from Minnesota.,,POLITICAL_AFFILIATION;VISITED
+173,1,He was first appointed to fill the Senate seat of Ernest Lundeen who had died in office.,,NO-RELATION
+173,6,He lost his reelection bid in 1948 to Hubert H. Humphrey.,,NO-RELATION
+173,7,"Ball died in Chevy Chase, Maryland.",,NO-RELATION
+174,1,"Raymond Arrieta (born March 26, 1965 in San Juan, Puerto Rico) is considered by many to be one of Puerto Rico's greatest comedians.",,NO-RELATION
+175,1,"After Raymond graduated from high school, he enrolled in the ""Universidad del Sagrado Corazon"" (University of the Sacred Heart) of San Juan, where he earned a Bachelors Degree in ""Radio and Television Production"".",,EDUCATION
+176,1,"Matthew Parker (August 6, 1504 - May 17, 1575) was Archbishop of Canterbury from 1559.",,JOB_TITLE
+177,1,"The eldest son of William Parker, he was born in Norwich, in St. Saviour's parish.",,NO-RELATION
+177,4,"Matthew was sent in 1522 to Corpus Christi College, Cambridge, where he is said to have been contemporary with William Cecil, but Cecil was only two years old at the time.",,EDUCATION
+177,6,"He commenced MA in 1528, and was one of the Cambridge scholars whom Thomas Wolsey wished to transplant to his newly founded ""Cardinal College"" at Oxford.",,NO-RELATION
+178,1,"Adolf Otto Reinhold Windaus (December 25, 1876 – June 9, 1959) was a significant German chemist.",,JOB_TITLE;NATIONALITY
+178,2,He won a Nobel Prize in Chemistry in 1928.,CONTROL,AWARD
+179,1,"Jack Kerouac (March 12, 1922 – October 21, 1969) was an American novelist, writer, poet, artist, and part of the Beat Generation.",,JOB_TITLE;NATIONALITY
+180,1,"During Kerouac's time at Columbia University, Burroughs and Kerouac got into trouble with the law for failing to report a murder; this incident formed the basis of a mystery novel the two collaborated on in 1945 entitled And the Hippos Were Boiled in Their Tanks (the novel was never published, although an excerpt from the manuscript would be included in the Burroughs compilation Word Virus).",,EDUCATION
+180,2,"In between his sea voyages, Kerouac stayed in New York with friends from Fordham.",,VISITED

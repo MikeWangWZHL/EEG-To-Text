@@ -1,0 +1,402 @@
+sentence_id;sentence;control;sentiment_label
+# -1 = negative, 0 = neutral, 1 = positive
+5;Presents a good case while failing to provide a reason for us to care beyond the very basic dictums of human decency.;;0
+6;Beautifully crafted, engaging filmmaking that should attract upscale audiences hungry for quality and a nostalgic, twisty yarn that will keep them guessing.;;1
+7;Bread, My Sweet has so many flaws it would be easy for critics to shred it.;;-1
+8;Slow, silly and unintentionally hilarious.;CONTROL;0
+9;Ultimately feels empty and unsatisfying, like swallowing a Communion wafer without the wine.;;-1
+10;Exudes the fizz of a Busby Berkeley musical and the visceral excitement of a sports extravaganza.;;1
+11;The film rehashes several old themes and is capped with pointless extremes -- it's insanely violent and very graphic.;;-1
+12;Ryan Gosling is, in a word, brilliant as the conflicted Daniel.;;1
+14;If Deuces Wild had been tweaked up a notch it would have become a camp adventure, one of those movies that's so bad it starts to become good.;;0
+15;The film's stagecrafts are intimate and therefore bolder than the otherwise calculated artifice that defines and overwhelms the film's production design.;;0
+16;Frida is certainly no disaster, but neither is it the Kahlo movie Frida fans have been looking for.;;0
+17;The film often achieves a mesmerizing poetry.;CONTROL;1
+18;A work of astonishing delicacy and force.;CONTROL;1
+19;The movie's plot is almost entirely witless and inane, carrying every gag two or three times beyond its limit to sustain a laugh.;;-1
+20;For the most part, the ingredients are there.;;0
+21;But if you've paid a matinee price and bought a big tub of popcorn, there's guilty fun to be had here.;;0
+22;There's not much to Fatale, outside of its stylish surprises... but that's OK.;CONTROL;0
+23;The acting is stiff, the story lacks all trace of wit, the sets look like they were borrowed from Gilligan's Island -- and the CGI Scooby might well be the worst special-effects creation of the year.;;-1
+24;This version moves beyond the original's nostalgia for the communal film experiences of yesteryear to a deeper realization of cinema's inability to stand in for true, lived experience.;;0
+25;There's no palpable chemistry between Lopez and male lead Ralph Fiennes, plus the script by Working Girl scribe Kevin Wade is workmanlike in the extreme.;;-1
+26;A first-class, thoroughly involving B movie that effectively combines two surefire, beloved genres -- the prison flick and the fight film.;;1
+27;The film is so bad it doesn't improve upon the experience of staring at a blank screen.;CONTROL;-1
+28;Weiss and Speck never make a convincing case for the relevance of these two 20th-century footnotes.;;0
+29;Another Best of the Year selection.;;1
+30;It's all a rather shapeless good time...;;0
+31;Same song, second verse, coulda been better, but it coulda been worse.;CONTROL;0
+32;I love the robust middle of this picture.;;1
+33;That's not vintage Spielberg and that, finally, is minimally satisfying.;;0
+34;The soundtrack alone is worth the price of admission.;CONTROL;1
+35;Mostly Martha could have used a little trimming -- 10 or 15 minutes could be cut and no one would notice -- but it's a pleasurable trifle.;;0
+36;For the rest of us, sitting through Dahmer's two hours amounts to little more than punishment.;;-1
+37;Featuring a dangerously seductive performance from the great Daniel Auteuil, ``Sade'' covers the same period as Kaufmann's ``Quills'' with more unsettlingly realistic results.;;1
+38;The movie is for fans who can't stop loving anime, and the fanatical excess built into it.;;0
+39;The Ring is worth a look, if you don't demand much more than a few cheap thrills from your Halloween entertainment.;;0
+40;Beautifully observed, miraculously unsentimental comedy-drama.;;1
+41;What makes How I Killed My Father compelling, besides its terrific performances, is Fontaine's willingness to wander into the dark areas of parent-child relationships without flinching.;;1
+42;This hastily mounted production exists only to capitalize on Hopkins' inclination to play Hannibal Lecter again, even though Harris has no immediate inclination to provide a fourth book.;;-1
+43;Bullock's complete lack of focus and ability quickly derails the film.;;-1
+44;... a plotline that's as lumpy as two-day old porridge... the filmmakers' paws, sad to say, were all over this ``un-bear-able'' project!;CONTROL;-1
+45;Crush could be the worst film a man has made about women since Valley of the Dolls.;;-1
+46;Reassuring, retro uplifter.;;1
+47;Flaccid drama and exasperatingly slow journey.;;-1
+48;The Movie will reach far beyond its core demographic.;;1
+49;How did it ever get made?;;-1
+50;I like the new footage and still love the old stuff.;;1
+51;It briefly flirts with player masochism, but the point of real interest -- audience sadism -- is evaded completely.;;0
+52;Could The Country Bears really be as bad as its trailers?;;-1
+53;At times, the movie looks genuinely pretty.;;1
+54;It depends on how well flatulence gags fit into your holiday concept.;;0
+55;The stupidest, most insulting movie of 2002's first quarter.;CONTROL;-1
+56;The film seems a dead weight.;;-1
+57;Sparkling, often hilarious romantic jealousy comedy... Attal looks so much like a young Robert DeNiro that it seems the film should instead be called `My Husband Is Travis Bickle'.;;1
+58;I did go back and check out the last 10 minutes, but these were more repulsive than the first 30 or 40 minutes.;;-1
+59;A lousy movie that's not merely unwatchable, but also unlistenable.;;-1
+60;One of the best films of the year with its exploration of the obstacles to happiness faced by five contemporary individuals... a psychological masterpiece.;;1
+61;A strong script, powerful direction and splendid production design allows us to be transported into the life of Wladyslaw Szpilman, who is not only a pianist, but a good human being.;CONTROL;1
+62;But here's the real damn: It isn't funny, either.;;-1
+63;Qutting may be a flawed film, but it is nothing if not sincere.;;0
+64;It's a fanboy `what if?';;0
+65;... something appears to have been lost in the translation this time.;;-1
+66;Like a documentary version of Fight Club, shorn of social insight, intellectual pretension and cinematic interest.;;0
+67;Stephen Rea, Aidan Quinn, and Alan Bates play Desmond's legal eagles, and when joined by Brosnan, the sight of this grandiloquent quartet lolling in pretty Irish settings is a pleasant enough thing, `tis.;;1
+68;It's a powerful though flawed movie, guaranteed to put a lump in your throat while reaffirming Washington as possibly the best actor working in movies today.;;1
+69;An intriguing and entertaining introduction to Johnson.;;1
+70;Everything was as superficial as the forced New Jersey lowbrow accent Uma had.;;-1
+71;Despite the holes in the story and the somewhat predictable plot, moments of the movie caused me to jump in my chair...;;0
+72;`How many more voyages can this limping but dearly-loved franchise survive?';;0
+73;If only the story about a multi-million dollar con bothered to include the con.;;0
+74;It is supremely unfunny and unentertaining to watch middle-age and older men drink to excess, piss on trees, b.s. one another and put on a show in drag.;CONTROL;-1
+75;Only a few minutes elapse before the daddy of all slashers arrives, still with the boiler suit and white mask, which look remarkably clean for a guy who has been mass-murdering since 1978 but has never been seen doing laundry.;;0
+76;Showtime is one of the hapless victims of the arrogant ``if we put together a wry white man and a chatty black man and give them guns, the movie will be funny'' syndrome.;;-1
+77;Whatever heartwarming scene the impressively discreet filmmakers may have expected to record with their mini DV, they show a remarkable ability to document both sides of this emotional car-wreck.;;1
+78;A zombie movie in every sense of the word -- mindless, lifeless, meandering, loud, painful, obnoxious.;;-1
+79;It has fun with the quirks of family life, but it also treats the subject with fondness and respect.;;1
+80;Novak manages to capture a cruelly hilarious vein of black comedy in the situation with his cast of non-actors and a gritty, no-budget approach.;;1
+81;Since Lee is a sentimentalist, the film is more worshipful than your random E!;;0
+82;The movie is almost completely lacking in suspense, surprise and consistent emotional conviction.;;-1
+83;High Crimes knows the mistakes that bad movies make and is determined not to make them, and maybe that is nobility of a sort.;;0
+84;But it's too long and too convoluted and it ends in a muddle.;CONTROL;-1
+85;This thing works on no level whatsoever for me.;;-1
+86;... a bland murder-on-campus yawner.;;-1
+87;"In comparison to his earlier films it seems a disappointingly thin slice of lower-class London life; despite the title... amounts to surprisingly little.";-1
+88;One of the finest, most humane and important Holocaust movies ever made.;;1
+89;Suffers from rambling, repetitive dialogue and the visual drabness endemic to digital video.;;-1
+90;The twist that ends the movie is the one with the most emotional resonance, but twists are getting irritating, and this is the kind of material where the filmmakers should be very careful about raising eyebrows.;;0
+91;Angel presents events partly from the perspective of Aurelie and Christelle, and infuses the film with the sensibility of a particularly nightmarish fairytale.;;0
+92;Features one of the most affecting depictions of a love affair ever committed to film.;;1
+93;It is intensely personal and yet -- unlike Quills -- deftly shows us the temper of the times.;;1
+94;Even as I valiantly struggled to remain interested, or at least conscious, I could feel my eyelids... getting... very... heavy...;CONTROL;-1
+95;... a solid, well-formed satire.;;1
+96;Deserves high marks for political courage but barely gets by on its artistic merits.;;0
+97;Read My Lips is to be viewed and treasured for its extraordinary intelligence and originality as well as its lyrical variations on the game of love.;;1
+98;... creates a visceral sense of its characters' lives and conflicted emotions that carries it far above... what could have been a melodramatic, Lifetime Channel-style anthology.;;0
+99;Reeks of rot and hack work from start to finish.;;0
+100;Just how these families interact may surprise you.;;0
+101;The Movie is what happens when you blow up small potatoes to 10 times their natural size, and it ain't pretty.;;-1
+102;Even a hardened voyeur would require the patience of Job to get through this interminable, shapeless documentary about the swinging subculture.;;-1
+103;Creepy, authentic and dark.;;0
+104;A lame romantic comedy about an unsympathetic character and someone who would not likely be so stupid as to get involved with her.;;-1
+105;Rob Schneider's infantile cross-dressing routines fill The Hot Chick, the latest gimmick from this unimaginative comedian.;;-1
+106;The film is a contrivance, as artificial as the video games Japanese teens play in a nightclub sequence, but it's an enjoyable one.;;0
+107;At its worst the screenplay is callow, but at its best it is a young artist's thoughtful consideration of fatherhood.;;0
+108;At 78 minutes it just zings along with vibrance and warmth.;;1
+109;Only an epic documentary could get it all down, and Spike Lee's Jim Brown: All American at long last gives its subject a movie worthy of his talents.;CONTROL;1
+110;As quiet, patient and tenacious as Mr. Lopez himself, who approaches his difficult, endless work with remarkable serenity and discipline.;;1
+111;Instead of hiding Pinocchio from critics, Miramax should have hidden it from everyone.;;-1
+112;What a great shame that such a talented director as Chen Kaige has chosen to make his English-language debut with a film so poorly plotted and scripted.;;-1
+113;Jeffs has created a breathtakingly assured and stylish work of spare dialogue and acute expressiveness.;;1
+114;Just about the best straight-up, old-school horror film of the last 15 years.;;1
+115;Gosling creates a staggeringly compelling character, a young man whose sharp intellect is at the very root of his contradictory, self-hating, self-destructive ways.;;1
+116;I thought the relationships were wonderful, the comedy was funny, and the love `real'.;;1
+117;Better at putting you to sleep than a sound machine.;;-1
+118;Feels less like a cousin to Blade Runner than like a bottom-feeder sequel in the Escape From New York series.;;-1
+119;Elegantly produced and expressively performed, the six musical numbers crystallize key plot moments into minutely detailed wonders of dreamlike ecstasy.;;1
+120;Ultimate X is a ride, basically the kind of greatest-hits reel that might come with a subscription to ESPN the Magazine.;;0
+121;Celebrated at Sundance, this slight comedy of manners has winning performances and a glossy, glib charm that's hard to beat.;;1
+122;Apparently, romantic comedy with a fresh point of view just doesn't figure in the present Hollywood program.;;-1
+123;That Haynes can both maintain and dismantle the facades that his genre and his character construct is a wonderous accomplishment of veracity and narrative grace.;;1
+124;Some elements of it really blow the big one, but other parts are decent.;;0
+125;No French people were harmed during the making of this movie, but they were insulted and the audience was put through torture for an hour and a half.;;-1
+126;I was feeling this movie until it veered off too far into the Exxon zone, and left me behind at the station looking for a return ticket to realism.;;-1
+127;The simplicity of The Way Home has few equals this side of Aesop.;;0
+128;Exceptionally well acted by Diane Lane and Richard Gere.;CONTROL;1
+129;Dong shows how intolerance has the power to deform families, then tear them apart.;;0
+130;A stupid, derivative horror film that substitutes extreme gore for suspense.;CONTROL;-1
+131;It's a great American adventure and a wonderful film to bring to IMAX.;;1
+132;It's 51 times better than this.;;0
+133;It's like an old Warner Bros. costumer jived with sex -- this could be the movie Errol Flynn always wanted to make, though Bette Davis, cast as Joan, would have killed him.;;0
+134;A miraculous movie, I'm Going Home is so slight, yet overflows with wisdom and emotion.;CONTROL;1
+135;A fiercely clever and subtle film, capturing the precarious balance between the extravagant confidence of the exiled aristocracy and the cruel earnestness of the victorious revolutionaries.;;1
+136;It's as if you're watching a movie that was made in 1978 but not released then because it was so weak, and it has been unearthed and released now, when it has become even weaker.;;-1
+137;Anemic chronicle of money grubbing New Yorkers and their serial loveless hook ups.;;0
+138;Thanks to a small star with big heart, this family film sequel is plenty of fun for all.;;1
+139;And I've decided to leave a light on every night from now on.;;0
+140;Festers in just such a dungpile that you'd swear you were watching monkeys flinging their feces at you.;;-1
+141;under-rehearsed and lifeless;CONTROL;-1
+142;Exactly what you'd expect from a guy named Kaos.;;0
+143;If legendary shlockmeister Ed Wood had ever made a movie about a vampire, it probably would look a lot like this alarming production, adapted from Anne Rice's novel The Vampire Chronicles.;CONTROL;0
+144;For those for whom the name Woody Allen was once a guarantee of something fresh, sometimes funny, and usually genuinely worthwhile, Hollywood Ending is a depressing experience.;;-1
+145;Bella is the picture of health with boundless energy until a few days before she dies.;;0
+146;The fun of the movie is the chance it affords to watch Jackson, who also served as executive producer, take his smooth, shrewd, powerful act abroad.;;1
+147;What should have been a cutting Hollywood satire is instead about as fresh as last week's issue of Variety.;;-1
+148;Cox offers plenty of glimpses at existing photos, but there are no movies of Nijinsky, so instead the director treats us to an aimless hodgepodge.;;-1
+149;Aaliyah rarely dampens her diva persona enough to spark genuine chemistry with Townsend.;;0
+150;Mr. Soderbergh's direction and visual style struck me as unusually and unimpressively fussy and pretentious.;;-1
+151;Mazel tov to a film about a family's joyous life acting on the Yiddish stage.;;1
+152;... would be a total loss if not for two supporting performances taking place at the movie's edges.;;0
+153;An inspiring and heart-affecting film about the desperate attempts of Vietnamese refugees living in U.S. relocation camps to keep their hopes alive in 1975.;;1
+154;Loud, chaotic and largely unfunny.;;-1
+155;The immersive powers of the giant screen and its hyper-realistic images are put to perfect use in the breathtakingly beautiful outer-space documentary Space Station 3D.;;1
+156;It's everything you don't go to the movies for.;;-1
+157;Harris is supposed to be the star of the story, but comes across as pretty dull and wooden.;;0
+158;Allen's funniest and most likeable movie in years.;CONTROL;1
+159;For those who pride themselves on sophisticated, discerning taste, this might not seem like the proper cup of tea, however it is almost guaranteed that even the stuffiest cinema goers will laugh their 1*** off for an hour-and-a-half.;;1
+160;There is a refreshing absence of cynicism in Stuart Little 2 -- quite a rarity, even in the family film market.;;1
+161;There are plot holes big enough for Shamu the killer whale to swim through.;;-1
+162;... always remains movingly genuine.;CONTROL;1
+163;Stitch is a bad mannered, ugly and destructive little ****.;;-1
+164;The cast is top-notch and I predict there will be plenty of female audience members drooling over Michael Idemoto as Michael.;;1
+165;Kirshner and Monroe seem to be in a contest to see who can out-bad-act the other.;;-1
+166;This is one of those war movies that focuses on human interaction rather than battle and action sequences... and it's all the stronger because of it.;;1
+167;Like life on the island, the movie grows boring despite the scenery.;CONTROL;-1
+168;It's anchored by splendid performances from an honored screen veteran and a sparkling newcomer who instantly transform themselves into a believable mother/daughter pair.;;1
+169;An atonal estrogen opera that demonizes feminism while gifting the most sympathetic male of the piece with a nice vomit bath at his wedding.;;-1
+170;Even by the intentionally low standards of frat-boy humor, Sorority Boys is a bowser.;;-1
+171;Director of photography Benoit Delhomme shot the movie in delicious colors, and the costumes and sets are grand.;;1
+172;The only entertainment you'll derive from this choppy and sloppy affair will be from unintentional giggles -- several of them.;;-1
+173;The film serves as a valuable time capsule to remind us of the devastating horror suffered by an entire people.;;0
+174;A bittersweet contemporary comedy about benevolent deception, which, while it may not rival the filmmaker's period pieces, is still very much worth seeing.;;1
+175;Attal pushes too hard to make this a comedy or serious drama.;;-1
+176;Isabelle Huppert excels as the enigmatic Mika and Anna Mouglalis is a stunning new young talent in one of Chabrol's most intense psychological mysteries.;;1
+177;A small movie with a big impact.;CONTROL;1
+178;This bold and lyrical first feature from Raja Amari expands the pat notion that middle-aged women just wanna have fun into a rousing treatise of sensual empowerment.;;1
+179;Photographed with melancholy richness and eloquently performed yet also decidedly uncinematic.;;0
+180;Hey Arnold! is now stretched to barely feature length, with a little more attention paid to the animation.;;0
+181;After that, it just gets stupid and maudlin.;;-1
+182;The stunning, dreamlike visuals will impress even those viewers who have little patience for Euro-film pretension.;CONTROL;1
+183;Plods along, minus the twisted humor and eye-popping visuals that have made Miike... a cult hero.;;0
+184;Impresses as a skillfully assembled, highly polished and professional adaptation... just about as chilling and unsettling as `Manhunter' was.;;1
+185;For the most part, it's a work of incendiary genius, steering clear of knee-jerk reactions and quick solutions.;;1
+186;It's badly acted, blandly directed, and could have been scripted by someone who just graduated from elementary school.;;-1
+187;The sort of picture in which, whenever one of the characters has some serious soul searching to do, they go to a picture-perfect beach during sunset.;;0
+188;Despite its raucous intent, XXX is as conventional as a Nike ad and as rebellious as spring break.;;0
+189;... a roller-coaster ride of a movie;CONTROL;1
+190;A colorful, vibrant introduction to a universal human impulse, lushly photographed and beautifully recorded.;CONTROL;1
+191;Audiard successfully maintains suspense on different levels throughout a film that is both gripping and compelling.;;1
+192;"Even horror fans will most likely not find what they're seeking with Trouble Every Day; the movie lacks both thrills and humor.";-1
+193;After that it becomes long and tedious like a classroom play in a college history course.;CONTROL;-1
+194;This is cool, slick stuff, ready to quench the thirst of an audience that misses the summer blockbusters.;;1
+195;Blade II has a brilliant director and charismatic star, but it suffers from rampant vampire devaluation.;;0
+196;A loud, ugly, irritating movie without any of its satirical salvos hitting a discernible target.;CONTROL;-1
+197;For VeggieTales fans, this is more appetizing than a side dish of asparagus.;;1
+198;While it regards 1967 as the key turning point of the 20th century, and returns again and again to images of dissidents in the streets, it's alarmingly current.;;0
+199;A truly wonderful tale combined with stunning animation.;CONTROL;1
+200;Nothing sticks, really, except a lingering creepiness one feels from being dragged through a sad, sordid universe of guns, drugs, avarice and damaged dreams.;;-1
+201;``Simone'' is a fun and funky look into an artificial creation in a world that thrives on artificiality.;;1
+202;It's a hoot watching The Rock chomp on jumbo ants, pull an arrow out of his back, and leap unscathed through raging fire!;;1
+203;While Tattoo borrows heavily from both Seven and The Silence of the Lambs, it manages to maintain both a level of sophisticated intrigue and human-scale characters that suck the audience in.;;1
+204;A portrait of an artist.;;0
+205;As written by Michael Berg and Michael J. Wilson from a story by Wilson, this relentless, all-wise-guys-all-the-time approach tries way too hard and gets tiring in no time at all.;;-1
+206;It's the best film of the year so far, the benchmark against which all other Best Picture contenders should be measured.;;1
+207;This is one of the biggest disappointments of the year.;CONTROL;-1
+208;It never fails to engage us.;;1
+209;Denis forges out of the theories of class - based rage and sisterly obsession a razor-sided tuning fork that rings with cultural, sexual and social discord.;;0
+210;The movie slides downhill as soon as macho action conventions assert themselves.;;-1
+211;More romantic, more emotional and ultimately more satisfying than the teary-eyed original.;;1
+212;Like the best of Godard's movies... it is visually ravishing, penetrating, impenetrable.;;1
+213;The cumulative effect of the movie is repulsive and depressing.;;-1
+214;Feels like nothing quite so much as a middle-aged moviemaker's attempt to surround himself with beautiful, half-naked women.;;0
+215;A very long movie, dull in stretches, with entirely too much focus on meal preparation and igloo construction.;;-1
+216;In XXX, Diesel is that rare creature -- an action hero with table manners, and one who proves that elegance is more than tattoo deep.;;1
+217;I'm not sure which will take longer to heal: the welt on Johnny Knoxville's stomach from a riot-control projectile or my own tortured psyche.;;-1
+218;While Serving Sara does have a long way to go before it reaches the level of crudity in the latest Austin Powers extravaganza, there's nothing here to match that movie's intermittent moments of inspiration.;;0
+219;It's difficult to conceive of anyone who has reached puberty actually finding the characters in Slackers or their antics amusing, let alone funny.;;-1
+220;It never is, not fully.;;0
+221;Not only is Undercover Brother as funny, if not more so, than both Austin Powers films, but it's also one of the smarter, savvier spoofs to come along in some time.;CONTROL;1
+222;It should be mentioned that the set design and interiors of the haunted vessel are more than effectively creepy and moodily lit.;;1
+223;With the exception of some fleetingly amusing improvisations by Cedric the Entertainer as Perry's boss, there isn't a redeeming moment here.;;-1
+224;It's a funny little movie with clever dialogue and likeable characters.;;1
+225;``13 Conversations'' holds its goodwill close, but is relatively slow to come to the point.;;0
+226;Not the kind of film that will appeal to a mainstream American audience, but there is a certain charm about the film that makes it a suitable entry into the fest circuit.;;1
+227;You come away wishing, though, that the movie spent a lot less time trying to make a credible case for reports from the afterlife and a lot more time on the romantic urgency that's at the center of the story.;;0
+228;The movie is virtually without context -- journalistic or historical.;;-1
+229;After sitting through this sloppy, made-for-movie comedy special, it makes me wonder if Lawrence hates criticism so much that he refuses to evaluate his own work.;;-1
+230;Genuinely touching because it's realistic about all kinds of love.;;1
+231;For all the complications, it's all surprisingly predictable.;;0
+232;Armed with a game supporting cast, from the pitch-perfect Forster to the always hilarious Meara and Levy, Like Mike shoots and scores, doing its namesake proud.;;1
+233;It will guarantee to have you leaving the theater with a smile on your face.;CONTROL;1
+234;The misery of these people becomes just another voyeuristic spectacle, to be consumed and forgotten.;;-1
+235;A thoroughly awful movie -- dumb, narratively chaotic, visually sloppy... a weird amalgam of `The Thing' and a geriatric `Scream.';;-1
+236;One of those staggeringly well-produced, joylessly extravagant pictures that keep whooshing you from one visual marvel to the next, hastily, emptily.;;0
+237;Measured against practically any like-themed film other than its Oscar-sweeping franchise predecessor The Silence of the Lambs, Red Dragon rates as an exceptional thriller.;;1
+238;The movie has no respect for laws, political correctness or common decency, but it displays something more important: respect for its flawed, crazy people.;;0
+239;In a strange way, Egoyan has done too much.;;0
+240;After seeing the film, I can tell you that there's no other reason why anyone should bother remembering it.;;-1
+241;The film is darkly funny in its observation of just how much more grueling and time-consuming the illusion of work is than actual work.;;1
+242;In some ways, Lagaan is quintessential Bollywood.;;0
+243;Pacino and Williams seem to keep upping the ante on each other, just as their characters do in the film.;;1
+244;It would be disingenuous to call Reno a great film, but you can say that about most of the flicks moving in and out of the multiplex.;;0
+245;Some movies can get by without being funny simply by structuring the scenes as if they were jokes: a setup, delivery and payoff.;;0
+246;Narc can only remind us of brilliant crime dramas without becoming one itself.;;0
+247;Narc is a no-bull throwback to 1970s action films.;;1
+248;Intriguing and downright intoxicating.;;1
+249;The wonderful combination of the sweetness and the extraordinary technical accomplishments of the first film are maintained, but its overall impact falls a little flat with a storyline that never quite delivers the original magic.;;0
+250;Perhaps the most annoying thing about Who Is Cletis Tout? is that it's a crime movie made by someone who obviously knows nothing about crime.;;-1
+251;In addition to scoring high for originality of plot -- putting together familiar themes of family, forgiveness and love in a new way -- Lilo & Stitch has a number of other assets to commend it to movie audiences both innocent and jaded.;;1
+252;The quirky drama touches the heart and the funnybone thanks to the energetic and always surprising performance by Rachel Griffiths.;;1
+253;At its worst, it implodes in a series of very bad special effects.;;-1
+254;Bad and baffling from the get-go.;;-1
+255;The movie is a blast of educational energy, as bouncy animation and catchy songs escort you through the entire 85 minutes.;;1
+256;The original wasn't a good movie but this remake makes it look like a masterpiece!;;-1
+257;To my taste, the film's comic characters come perilously close to being Amoses and Andys for a new generation.;;0
+258;Although the sequel has all the outward elements of the original, the first film's lovely flakiness is gone, replaced by the forced funniness found in the dullest kiddie flicks.;;-1
+259;The real charm of this trifle is the deadpan comic face of its star, Jean Reno, who resembles Sly Stallone in a hot sake half-sleep.;;0
+260;... a cute and sometimes side-splittingly funny blend of Legally Blonde and Drop Dead Gorgeous, starring Piper Perabo in what could be her breakthrough role.;;1
+261;This method almost never fails him, and it works superbly here.;;1
+262;Few films capture so perfectly the hopes and dreams of little boys on baseball fields as well as the grown men who sit in the stands.;;1
+263;Steers has an unexpectedly adamant streak of warm-blooded empathy for all his disparate Manhattan denizens -- especially the a**holes.;;0
+264;The Emperor's Club is one of those films that possesses all the good intentions in the world, but...;;0
+265;The most compelling performance of the year adds substantial depth to this shocking testament to anti-Semitism and neo-fascism.;;1
+266;LaBute can't avoid a fatal mistake in the modern era: He's changed the male academic from a lower-class Brit to an American, a choice that upsets the novel's exquisite balance and shreds the fabric of the film.;;0
+267;A biopic about Crane's life in the classic tradition but evolves into what has become of us all in the era of video.;;0
+268;A work of extraordinary journalism, but it is also a work of deft and subtle poetry.;CONTROL;1
+269;... think of it as American Pie On Valium.;;0
+270;Gere gives a good performance in a film that doesn't merit it.;;0
+271;"The movie is as far as you can get from racy, to the point where it almost stops the blood flow to your brain; it has a dull, costumey feel.";-1
+272;The Pianist is Polanski's best film.;CONTROL;1
+273;Maybe Thomas Wolfe was right: You can't go home again.;;0
+274;The director, with his fake backdrops and stately pacing, never settles on a consistent tone.;;-1
+275;Why he was given free reign over this project -- he wrote, directed, starred and produced -- is beyond me.;;-1
+276;If you enjoy being rewarded by a script that assumes you aren't very bright, then Blood Work is for you.;;-1
+277;Like Rudy Yellow Lodge, Eyre needs to take a good sweat to clarify his cinematic vision before his next creation and remember the lessons of the trickster spider.;;-1
+278;But his showboating wise-cracker stock persona sure is getting old.;;0
+279;Circuit queens won't learn a thing, they'll be too busy cursing the film's strategically placed white sheets.;;0
+280;A lot of talent is wasted in this crass, low-wattage endeavor.;CONTROL;-1
+281;Alain Choquart's camera barely stops moving, portraying both the turmoil of the time and giving Conduct a perpetual sense of urgency, which, for a film that takes nearly three hours to unspool, is both funny and irritating.;;0
+282;The second coming of Harry Potter is a film far superior to its predecessor.;;1
+283;This stuck pig of a movie flails limply between bizarre comedy and pallid horror.;;-1
+284;The film just might turn on many people to opera, in general, an art form at once visceral and spiritual, wonderfully vulgar and sublimely lofty -- and as emotionally grand as life.;;1
+285;The delicious trimmings... arrive early and stay late, filling nearly every minute... with a lighthearted glow, some impudent snickers, and a glorious dose of humankind's liberating ability to triumph over a Scrooge or two.;;1
+286;The inhospitability of the land emphasizes the spare precision of the narratives and helps to give them an atavistic power, as if they were tales that had been handed down since the beginning of time.;;0
+287;Even more baffling is that it's funny.;;0
+288;Parker should be commended for taking a fresh approach to familiar material, but his determination to remain true to the original text leads him to adopt a somewhat mannered tone... that ultimately dulls the human tragedy at the story's core.;;0
+289;Hard, endearing, caring, warm.;;1
+290;I have no problem with ``difficult'' movies, or movies that ask the audience to meet them halfway and connect the dots instead of having things all spelled out.;;0
+291;The way Coppola professes his love for movies -- both colorful pop junk and the classics that unequivocally qualify as art -- is giddily entertaining.;;1
+292;Both the crime story and the love story are unusual.;;0
+293;It's never a good sign when a film's star spends the entirety of the film in a coma.;CONTROL;-1
+294;A creaky staircase gothic.;;0
+295;If there's a way to effectively teach kids about the dangers of drugs, I think it's in projects like the (unfortunately R-rated) Paid.;;0
+296;If you're a WWF fan, or you related to the people who watched the robots getting butchered in A.I., you'll probably like Rollerball.;;0
+297;Norton holds the film together.;;0
+298;A breathtaking adventure for all ages, Spirit tells its poignant and uplifting story in a stunning fusion of music and images.;;1
+299;It won't bust your gut -- and it's not intended to -- it's merely a blandly cinematic surgical examination of what makes a joke a joke.;;0
+300;Largely a for-fans artifact.;;0
+301;A movie so bad that it quickly enters the pantheon of wreckage that includes Battlefield Earth and Showgirls.;;-1
+302;If you're over 25, have an IQ over 90, and have a driver's license, you should be able to find better entertainment.;;-1
+303;A solid piece of journalistic work that draws a picture of a man for whom political expedience became a deadly foreign policy.;;0
+304;The doofus-on-the-loose banter of Welcome to Collinwood has a cocky, after-hours loopiness to it.;;0
+305;It's the funniest American comedy since Graffiti Bridge.;;1
+306;Samuel Beckett applied to the Iranian voting process.;;0
+307;A strangely compelling and brilliantly acted psychological drama.;;1
+308;Often gruelling and heartbreaking to witness, but Seldahl and Wollter's sterling performances raise this far above the level of the usual maudlin disease movie.;;1
+309;This enthralling documentary... is at once playful and haunting, an in-depth portrait of an iconoclastic artist who was fundamentally unknowable even to his closest friends.;;1
+310;I didn't laugh at the ongoing efforts of Cube, and his skinny buddy Mike Epps, to make like Laurel and Hardy'n the hood.;;-1
+311;At its best when the guarded, resentful Betty and the manipulative yet needy Margot are front and center.;;0
+312;Ford deserves to be remembered at Oscar time for crafting this wonderful portrait of a conflicted soldier.;;1
+313;That is essentially what's missing from Blackboards -- the sense of something bigger, some ultimate point.;;0
+314;It's a bizarre curiosity memorable mainly for the way it fritters away its potentially interesting subject matter via a banal script, unimpressive acting and indifferent direction.;;0
+315;While obviously an extremely personal work, it remains inextricably stuck in an emotionally unavailable rut.;;0
+316;A dim-witted and lazy spin-off of the Animal Planet documentary series, Crocodile Hunter is entertainment opportunism at its most glaring.;;-1
+317;The good is very, very good... The rest runs from mildly unimpressive to despairingly awful.;;0
+318;Methodical, measured, and gently tedious in its comedy, Secret Ballot is a purposefully reductive movie -- which may be why it's so successful at lodging itself in the brain.;;1
+319;One of the most exciting action films to come out of China in recent years.;;1
+320;Adam Sandler's Eight Crazy Nights grows on you -- like a rash.;;-1
+321;The film feels formulaic, its plot and pacing typical Hollywood war-movie stuff, while the performances elicit more of a sense of deja vu than awe.;;-1
+322;... pitiful, slapdash disaster.;;-1
+323;As it stands, there's some fine sex onscreen, and some tense arguing, but not a whole lot more.;;0
+324;It's neither as romantic nor as thrilling as it should be.;CONTROL;-1
+325;Returning director Rob Minkoff... and screenwriter Bruce Joel Rubin... have done a fine job of updating White's dry wit to a new age.;;1
+326;The Venezuelans say things like ``si, pretty much'' and ``por favor, go home'' when talking to Americans.;;0
+327;If you already like this sort of thing, this is that sort of thing all over again.;;0
+328;An awful movie that will only satisfy the most emotionally malleable of filmgoers.;;-1
+329;This is an extraordinary film, not least because it is Japanese and yet feels universal.;;1
+330;Aptly named, this shimmering, beautifully costumed and filmed production doesn't work for me.;;0
+331;If Borstal Boy isn't especially realistic, it is an engaging nostalgia piece.;;0
+332;Griffiths proves she's that rare luminary who continually raises the standard of her profession.;;1
+333;The asylum material is gripping, as are the scenes of Jia with his family.;;1
+334;... by the time it's done with us, Mira Nair's new movie has its audience giddy with the delight of discovery, of having been immersed in a foreign culture only to find that human nature is pretty much the same all over.;;1
+335;... about as exciting to watch as two last-place basketball teams playing one another on the final day of the season.;;-1
+336;Girls gone wild and gone civil again;;0
+337;To say Analyze That is De Niro's best film since Meet the Parents sums up the sad state of his recent career.;;0
+338;Like being trapped inside a huge video game, where exciting, inane images keep popping past your head and the same illogical things keep happening over and over again.;;0
+339;`Enigma' is the kind of engaging historical drama that Hollywood appears to have given up on in favor of sentimental war movies in the vein of `We Were Soldiers.';;0
+340;The Rock has a great presence but one battle after another is not the same as one battle followed by killer CGI effects.;;0
+341;Visually sumptuous but intellectually stultifying.;;0
+342;So young, so smart, such talent, such a wise ***.;;1
+343;The problem is that for the most part, the film is deadly dull.;;-1
+344;A thinly veiled look at different aspects of Chinese life clashing with each other.;;0
+345;An exhilarating experience.;;1
+346;Its vision of that awkward age when sex threatens to overwhelm everything else is acute enough to make everyone who has been there squirm with recognition.;;0
+347;Remarkably accessible and affecting.;;1
+348;The climactic events are so well realized that you may forget all about the original conflict, just like the movie does.;;0
+349;Distinctly sub-par... more likely to drown a viewer in boredom than to send any shivers down his spine.;;-1
+350;Godard's ode to tackling life's wonderment is a rambling and incoherent manifesto about the vagueness of topical excess... In Praise of Love remains a ponderous and pretentious endeavor that's unfocused and tediously exasperating.;;-1
+351;"Shamelessly resorting to pee-related sight gags that might even cause Tom Green a grimace; still, Myer's energy and the silliness of it all eventually prevail.";0
+352;We never truly come to care about the main characters and whether or not they'll wind up together, and Michele's spiritual quest is neither amusing nor dramatic enough to sustain interest.;;-1
+353;Most haunting about ``Fence'' is its conclusion, when we hear the ultimate fate of these girls and realize, much to our dismay, that this really did happen.;;1
+354;Bogdanovich taps deep into the Hearst mystique, entertainingly reenacting a historic scandal.;;1
+355;Peralta's mythmaking could have used some informed, adult hindsight.;;0
+356;``My god, I'm behaving like an idiot!'';;0
+357;Devos and Cassel have tremendous chemistry -- their sexual and romantic tension, while never really vocalized, is palpable.;;1
+358;As a girl-meets-girl romantic comedy, Kissing Jessica Steinis quirky, charming and often hilarious.;;1
+359;Gollum's `performance' is incredible!;;1
+360;... a haunting vision, with images that seem more like disturbing hallucinations.;;-1
+361;As a remake, it's a pale imitation.;;-1
+362;Adults will certainly want to spend their time in the theater thinking up grocery lists and ways to tell their kids how not to act like Pinocchio.;;0
+363;Not as distinctive or even as humorous as its needs to be to stand out, but it has clearly been made with affection and care.;;0
+364;A generic family comedy unlikely to be appreciated by anyone outside the under-10 set.;;-1
+365;An amalgam of The Fugitive, Blade Runner, and Total Recall, only without much energy or tension.;;0
+366;Everything its title implies, a standard-issue crime drama spat out from the Tinseltown assembly line.;;0
+367;This odd, poetic road movie, spiked by jolts of pop music, pretty much takes place in Morton's ever-watchful gaze -- and it's a tribute to the actress, and to her inventive director, that the journey is such a mesmerizing one.;;1
+368;Co-writer/director Jonathan Parker's attempts to fashion a Brazil-like, hyper-real satire fall dreadfully short.;;-1
+369;An amateurish, quasi-improvised acting exercise shot on ugly digital video.;CONTROL;-1
+370;``The Kid Stays in the Picture'' is a great story, terrifically told by the man who wrote it but this Cliff Notes edition is a cheat.;;0
+371;A gratingly unfunny groaner littered with zero-dimensional, unlikable characters and hackneyed, threadbare comic setups.;;-1
+372;While this gentle and affecting melodrama will have luvvies in raptures, it's far too slight and introspective to appeal to anything wider than a niche audience.;;0
+373;Griffin & Co. manage to be spectacularly outrageous.;;1
+374;A profoundly stupid affair, populating its hackneyed and meanspirited storyline with cardboard characters and performers who value cash above credibility.;;-1
+375;Warm Water Under a Red Bridge is a quirky and poignant Japanese film that explores the fascinating connections between women, water, nature, and sexuality.;;1
+376;It isn't that Stealing Harvard is a horrible movie -- if only it were that grand a failure!;;-1
+377;It just doesn't have much else... especially in a moral sense.;;0
+378;Those unfamiliar with Mormon traditions may find The Singles Ward occasionally bewildering.;;0
+379;Viewed as a comedy, a romance, a fairy tale, or a drama, there's nothing remotely triumphant about this motion picture.;;0
+380;But the talented cast alone will keep you watching, as will the fight scenes.;CONTROL;1
+381;It's solid and affecting and exactly as thought-provoking as it should be.;CONTROL;1
+382;Thanks largely to Williams, all the interesting developments are processed in 60 minutes -- the rest is just an overexposed waste of film.;;-1
+383;Cantet perfectly captures the hotel lobbies, two-lane highways, and roadside cafes that permeate Vincent's days;;1
+384;An important movie, a reminder of the power of film to move us and to make us examine our values.;;1
+385;Too much of this well-acted but dangerously slow thriller feels like a preamble to a bigger, more complicated story, one that never materializes.;;-1
+386;A richly imagined and admirably mature work from a gifted director who definitely has something on his mind.;;1
+387;The art direction is often exquisite, and the anthropomorphic animal characters are beautifully realized through clever makeup design, leaving one to hope that the eventual DVD release will offer subtitles and the original Italian-language soundtrack.;;1
+388;... Jones, despite a definitely distinctive screen presence, just isn't able to muster for a movie that, its title notwithstanding, should have been a lot nastier if it wanted to fully capitalize on its lead's specific gifts.;;0
+389;But what's nice is that there's a casual intelligence that permeates the script.;CONTROL;1
+390;Wedding feels a bit anachronistic.;;-1
+391;An action/thriller of the finest kind, evoking memories of Day of the Jackal, The French Connection, and Heat.;;1
+392;This picture is murder by numbers, and as easy to be bored by as your ABC's, despite a few whopping shootouts.;;-1
+393;Every individual will see the movie through the prism of his or her own beliefs and prejudices, but the one thing most will take away is the sense that peace is possible.;;1
+394;Feels slight, as if it were an extended short, albeit one made by the smartest kids in class.;;0
+395;The picture doesn't know it's a comedy.;;0
+396;A classy item by a legend who may have nothing left to prove but still has the chops and drive to show how its done.;;1
+397;Starts out mediocre, spirals downward, and thuds to the bottom of the pool with an utterly incompetent conclusion.;CONTROL;-1
+398;The sort of movie that gives tastelessness a bad rap.;;-1
+399;Its engaging simplicity is driven by appealing leads.;;1
+400;Fans of the TV series will be disappointed, and everyone else will be slightly bored.;CONTROL;0
+401;It's a head-turner -- thoughtfully written, beautifully read and, finally, deeply humanizing.;CONTROL;1
+402;"Bray is completely at sea; with nothing but a Savage Garden music video on his resume, he has no clue about making a movie.";-1
+403;It's not a particularly good film, but neither is it a monsterous one.;CONTROL;0
+404;Men in Black II achieves ultimate insignificance -- it's the sci-fi comedy spectacle as Whiffle-Ball epic.;;-1
+405;Martyr gets royally screwed and comes back for more.;;0

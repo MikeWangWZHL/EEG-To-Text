@@ -1,0 +1,510 @@
+target string: Everything its title implies, a standard-issue crime drama spat out from the Tinseltown assembly line.
+predicted string: ItIt is been.. it person ofbe car.... the beginning Housetown...I</s>.............s....... - - - - - - - - - - -
+################################################
+
+
+target string: This odd, poetic road movie, spiked by jolts of pop music, pretty much takes place in Morton's ever-watchful gaze -- and it's a tribute to the actress, and to her inventive director, that the journey is such a mesmerizing one.
+predicted string:  isball long, to is " with theolts and pain,, is much sums you in the's.greenpresentful eye. and it's not lot to the past. not it the. ways. too's whole is still</s> longizing one.It
+################################################
+
+
+target string: Co-writer/director Jonathan Parker's attempts to fashion a Brazil-like, hyper-real satire fall dreadfully short.
+predicted string: ItItpperfounder ofprodu of H. new to get a new-style economy but-localistic are flatfully short ofIt</s>...........12121244444444andandand,andvandandandand
+################################################
+
+
+target string: An amateurish, quasi-improvised acting exercise shot on ugly digital video.
+predicted string: IIcest can way but-pprovised weapon system.. the. screen.Ir....isisisisisisisisisorisororororor((orororor
+################################################
+
+
+target string: ``The Kid Stays in the Picture'' is a great story, terrifically told by the man who wrote it but this Cliff Notes edition is a cheat.
+predicted string: I rest'says in the Middle� and still great place. but place worth by the man who has it. it is� and is not little.It</s>isis.isisisisisisisisisis........
+################################################
+
+
+target string: A gratingly unfunny groaner littered with zero-dimensional, unlikable characters and hackneyed, threadbare comic setups.
+predicted string: ItIt lotis is largeriend wayan.. the the'st objects blackitable,. ayed. jbare,..I</s>...v46..vvvvvvvvvvvvvvandandv
+################################################
+
+
+target string: While this gentle and affecting melodrama will have luvvies in raptures, it's far too slight and introspective to appeal to anything wider than a niche audience.
+predicted string: ItIt I is giant easy,odrama is be toustervied, theor, it will not from easy to toospective to be to. like. that handful..It</s>.
+################################################
+
+
+target string: Griffin & Co. manage to be spectacularly outrageous.
+predicted string: ""anted's I. have the get a. successful. Ire is.....222f very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very
+################################################
+
+
+target string: A profoundly stupid affair, populating its hackneyed and meanspirited storyline with cardboard characters and performers who value cash above credibility.
+predicted string: ItIt lot different person. I. the ownneyed, h ofited.. a.. a. look it. everything.It</s>....4646.........bbbbbbbb
+################################################
+
+
+target string: Warm Water Under a Red Bridge is a quirky and poignant Japanese film that explores the fascinating connections between women, water, nature, and sexuality.
+predicted string: IIyth,water Tree Roof. a popular place fun place-. has the theme world between the and men and and and and people.It
+################################################
+
+
+target string: It isn't that Stealing Harvard is a horrible movie -- if only it were that grand a failure!
+predicted string: ItIt's't easy easy. is is a bad place. it you for were that.. deal.It
+################################################
+
+
+target string: It just doesn't have much else... especially in a moral sense.
+predicted string: ItIt's keeps't seem to to.I now this place sense.I</s>.......................................
+################################################
+
+
+target string: Those unfamiliar with Mormon traditions may find The Singles Ward occasionally bewildering.
+predicted string: ItIt are with the history are find it Churchularity' very.ering. It</s>..........v,,,,,,,,, D D D D D D D D D D D D D D D D D D
+################################################
+
+
+target string: Viewed as a comedy, a romance, a fairy tale, or a drama, there's nothing remotely triumphant about this motion picture.
+predicted string: ItIt from from a whole of it lot and and thriller tale, and something love, it is nothing like like about it...Itisis..464646464646464646v4646vv
+################################################
+
+
+target string: But the talented cast alone will keep you watching, as will the fight scenes.
+predicted string: ItIt it other and of is not him coming. and well the people..I</s>................ss and - - - - - - - - - - - - - - - - - -
+################################################
+
+
+target string: It's solid and affecting and exactly as thought-provoking as it should be.
+predicted string: ItIt's a. it. it what I.outoking. it is be.I</s>..............v.. and to to to to to to to to to to to to to to to to to to
+################################################
+
+
+target string: Thanks largely to Williams, all the interesting developments are processed in 60 minutes -- the rest is just an overexposed waste of film.
+predicted string: ItIt for for you. I of way stuff are still. the seconds. and rest of still a afteragerplan. of time.I
+################################################
+
+
+target string: Cantet perfectly captures the hotel lobbies, two-lane highways, and roadside cafes that permeate Vincent's days
+predicted string: ItItannonor.. the feeling'sies. and-way streets and and the parking. areate the's..</s>is.</s>gggvvvvvvvvvvvandandandandandandandvandandandand
+################################################
+
+
+target string: An important movie, a reminder of the power of film to move us and to make us examine our values.
+predicted string: ItIta part is I lot of what past of the. make people forward keep make us think our lives.It</s>........3......................
+################################################
+
+
+target string: Too much of this well-acted but dangerously slow thriller feels like a preamble to a bigger, more complicated story, one that never materializes.
+predicted string: ItIt much to it stuff-known stuff not dangerous-. like a game-ble to the game game more dangerous game. so that I endsizes.I</s>is..g46ggggg.vggg</s>vvvvvand
+################################################
+
+
+target string: A richly imagined and admirably mature work from a gifted director who definitely has something on his mind.
+predicted string: ItIt few man decorated future wellirably executed.. the young and. has has a to his mind.I</s>...............,,.)) and and and and and and and and and and very
+################################################
+
+
+target string: The art direction is often exquisite, and the anthropomorphic animal characters are beautifully realized through clever makeup design, leaving one to hope that the eventual DVD release will offer subtitles and the original Italian-language soundtrack.
+predicted string:  rest of is still very. but it peopleomorph. is are always drawn. it design.. but the of look for it resti is is be more. such like..style version.It</s>is..grgrnernernernernerner.
+################################################
+
+
+target string: ... Jones, despite a definitely distinctive screen presence, just isn't able to muster for a movie that, its title notwithstanding, should have been a lot nastier if it wanted to fully capitalize on its lead's specific gifts.
+predicted string: I' I the lot not look,, has keeps't going to get the the long.'s like not is. it be been taken lot ofierier. you's to be take on it own. size features.It</s>isis....is
+################################################
+
+
+target string: But what's nice is that there's a casual intelligence that permeates the script.
+predicted string: ItIt it about left is that it is a lot way.'sates the whole. Itre......222222.....................
+################################################
+
+
+target string: Wedding feels a bit anachronistic.
+predicted string: ItItinning planning like little like afterronistic.Itre......444....................... In In In In In In In In In In
+################################################
+
+
+target string: An action/thriller of the finest kind, evoking memories of Day of the Jackal, The French Connection, and Heat.
+predicted string: ItIt early thatdefruster. the year kind. Iading the of the of the Deadal. is Man Connection, and other.I</s>....................vvv. and
+################################################
+
+
+target string: This picture is murder by numbers, and as easy to be bored by as your ABC's, despite a few whopping shootouts.
+predicted string: ItIt is is from. the. but it you as see seen as it it hair.. your the few years pointsouts.I</s>is
+################################################
+
+
+target string: Every individual will see the movie through the prism of his or her own beliefs and prejudices, but the one thing most will take away is the sense that peace is possible.
+predicted string: ItIt day has have what results. different eyes of their own her own personal. opinions. but it overall thing that people be</s> from the fact of it is worth.It
+################################################
+
+
+target string: Feels slight, as if it were an extended short, albeit one made by the smartest kids in class.
+predicted string: ItItels like. but if it's a old family- but it that with a same person in the.Itis.............vvvvvvvvvvvvvvandandandand
+################################################
+
+
+target string: The picture doesn't know it's a comedy.
+predicted string: II other above't look what's there problem of Itre........24....... I I I I I I I I I I I I I I I I I I I I I I I I I I
+################################################
+
+
+target string: A classy item by a legend who may have nothing left to prove but still has the chops and drive to show how its done.
+predicted string: ItIt little,. the very. is be been to. give. that has a ability. the. do. it done.It</s>.</s>....3.s, and and and and and and and and and and and and and and and and -
+################################################
+
+
+target string: Starts out mediocre, spirals downward, and thuds to the bottom of the pool with an utterly incompetent conclusion.
+predicted string: ItIt. at with. thenals out. and endsrees into the ground. the barrel. a occasional un look.I</s>is...........andandvvvandandandand,andandvandandandand
+################################################
+
+
+target string: The sort of movie that gives tastelessness a bad rap.
+predicted string: "" other of thing that makes youeb people and whole name.Ire...................... to.... to to to to to to to to to to to to to
+################################################
+
+
+target string: Its engaging simplicity is driven by appealing leads.
+predicted string: ItIt a. is what by the to. It</s>.....3., to to to to to to to to to to - - - - - - - - - - - - - - - - - - - - - - - - - -
+################################################
+
+
+target string: Fans of the TV series will be disappointed, and everyone else will be slightly bored.
+predicted string: ItIt of the game show " be happy. but it else will be happy disappointed.It</s>.....rig..............................
+################################################
+
+
+target string: It's a head-turner -- thoughtfully written, beautifully read and, finally, deeply humanizing.
+predicted string: II's a longyscing. and you.. but executed. well yes, it thought..I</s>................andandandandand..........
+################################################
+
+
+target string: Bray is completely at sea; with nothing but a Savage Garden music video on his resume, he has no clue about making a movie.
+predicted string: ItItewareden a out peace. it a to a few.... the phone. he's to interest. what it deal.I
+################################################
+
+
+target string: It's not a particularly good film, but neither is it a monsterous one.
+predicted string: ItIt's a a good good place. but it is it bad bad. movie.Ire.............v...,,,,,,,,,,,,,,,,,,,
+################################################
+
+
+target string: Men in Black II achieves ultimate insignificance -- it's the sci-fi comedy spectacle as Whiffle-Ball epic.
+predicted string: ""'s Black and has that successiaance. it's not only-fi version.. wellirlenballMan..Itre is....isisandandandandandandandandandandandandandandandandandandandand
+################################################
+
+
+target string: Martyr gets royally screwed and comes back for more.
+predicted string: IIinezdom aally screwed over I back for moreMart Ire.......4415...............................
+################################################
+
+
+target string: During this period, McNamara helped to plan the 1945 bombing of Tokyo.
+predicted string: "" the time, Iamara also to find the next-. the. He</s>.......2..............................
+################################################
+
+
+target string: In 1946 McNamara joined Ford Motor Company, which he later said had been the result of a Life magazine article which reported how few college-educated managers there were at the then unprofitable company.
+predicted string: II the,amara was the. Company. he is had sold was a a best of a lot is article. had on he people studentseducated people are are. Ford time</s>iitable company.I</s>...fff4646464646.46
+################################################
+
+
+target string: President-elect John F. Kennedy first offered the post of secretary of defense to former secretary Robert A. Lovett.
+predicted string: II Trumpelect Donald McCain. Kennedy is came his following to President of state to the President of Reich. Dull..John</s>........... - - - - - - - - D D D D D D D D D D
+################################################
+
+
+target string: Lovett declined but recommended McNamara; Kennedy had him approached by Sargent Shriver (regarding either the Treasury or the Defense cabinet post), and less than five weeks after becoming president at Ford, McNamara accepted Kennedy's invitation to serve as Secretary of Defense.
+predicted string:  itl to still youug. I still a.. theisen.illing.I) the way same or the other))) and that than a minutes to that a. the. weamara..'s offer. come. a of course. That
+################################################
+
+
+target string: He also created the Defense Intelligence Agency and the Defense Supply Agency.
+predicted string: II's said a " of Agency. the Defense Intelligence Company.I</s>.......2224is............................
+################################################
+
+
+target string: Mary Lilian Baels (November 28, 1916 - June 7, 2002) was best known as Princess de Ruthy, the controversial morganatic second wife of King Leopold III of the Belgians.
+predicted string: IIamia:umannerBaltimore 2, 2017)) 4, 2018) is born known for a of Paris.. but Queen womanon.. daughter. John.opold.. Germany Netherlandsians.Posted
+################################################
+
+
+target string: Mary Lilian Lucy Josepha Monique Baels was born in Highbury, London, England, one of eight children of Henri Baels, an attorney and fish trader from Ostend, Belgium, and his wife Anne Marie de Visscher, who were living in
+predicted string:  Louis's isine.a.ñi the and the Point. Texas. I. this of the.. the.els. it original. a.. theor. California. and the family... Johnsonieri. a is still in the
+################################################
+
+
+target string: He is also notable in that he is the great great great grandfather of President George W. Bush through his son Reverend James Smith Bush.
+predicted string: II said still a for that he has a only one grandfather grandfather of the Trump W. Bush. and entire. Wright...I
+################################################
+
+
+target string: He was the son of a blacksmith Timothy Bush, Jr. and Lydia Newcomb and was born in Penfield, Monroe Co., New York on January 28, 1797.
+predicted string: II said not first of a former man... who. and his Bush.. his born in Texasnington, New County. Virginia Jersey. March 4, 1892.I
+################################################
+
+
+target string: He was a participant in the Underground Railroad, and even petitioned the New York state Legislature to secede from the Union in a protest against slavery.
+predicted string: II's a little in the first Railroad. which he moreed for government York City legislature to bancede from the group. the recent. the.I</s>......................
+################################################
+
+
+target string: Eventually Obadiah, Henry and possibly another brother or two went off to find their fortunes in the California Gold Rush of 1849.
+predicted string: II,amiah will I and I others person will sister. to to find a way. the world market Rush. the94.I</s>...............46.....,,,,,
+################################################
+
+
+target string: Robert Henry Dee (born May 18, 1933 in Quincy, Massachusetts) is a former three-sport letterman at Holy Cross College who was one of the first players signed by the Boston Patriots in 1960.
+predicted string: a is isThe in), 1946) New) Illinois) is still great Marine-letterigma starman. the Roller.. has a of the first to to up the company Celtics. the.Ii...........
+################################################
+
+
+target string: Another example of a player misjudged by the NFL, he became an ironman of the American Football League who never missed a game during his career, starting 112 consecutive games.
+predicted string: II one of that great thatbehging. a wrong. is said a idiot man. the world football League. is had a beat. the career. he with. years.I</s>.................
+################################################
+
+
+target string: He was voted to five American Football League All-Star teams (1961, 1963-65).
+predicted string: ItIt said not the the- Ninja Hall's-Star Team.including57- 1972,1966, He</s>.</s>...............................
+################################################
+
+
+target string: Joseph H. Ball (November 3, 1905 - December 18, 1993) was an American politician.
+predicted string: ""ine. Johnson isaka 2, 2018) ) 15, 18) is born American football andHere...........is.isandand,,,,,,,,,,,,,,,,,
+################################################
+
+
+target string: He served in the United States Senate as a Republican from Minnesota.
+predicted string: ""'s as the Navy States Navy for well member. California. Here........................................
+################################################
+
+
+target string: He was first appointed to fill the Senate seat of Ernest Lundeen who had died in office.
+predicted string: II's a in to the the position seat. aoy. was been earlier a. Heis...........4444....44444444.4444..........
+################################################
+
+
+target string: He lost his reelection bid in 1948 to Hubert H. Humphrey.
+predicted string: "" said his job bid in November. Johnbert H. Leeries. Here..........., - - for for for. for for for for for for..............
+################################################
+
+
+target string: Ball died in Chevy Chase, Maryland.
+predicted string: II is. the., Maryland. It</s>.......... to to to to to to to to to to to to to to to to. a... back a a a a to to to to to to to..
+################################################
+
+
+target string: Raymond Arrieta (born March 26, 1965 in San Juan, Puerto Rico) is considered by many to be one of Puerto Rico's greatest comedians.
+predicted string: ""mond Jola:Photo in 4, 1960) New Francisco, Puerto Rico) is a one many to be the of the Rico's greatest living.He</s>................g - - - - -
+################################################
+
+
+target string: After Raymond graduated from high school, he enrolled in the "Universidad del Sagrado Corazon" (University of the Sacred Heart) of San Juan, where he earned a Bachelors Degree in "Radio and Television Production".
+predicted string: II that's, the school, he said in the programIfinishedities de Riorado Jonesre" programU of San San Heart) program San Francisco. California he's his degree.ors.. BusinessYou and Film"".This</s>.....
+################################################
+
+
+target string: Matthew Parker (August 6, 1504 - May 17, 1575) was Archbishop of Canterbury from 1559.
+predicted string: ""s:aka 1, 20183)) 4, 1536) is born of San. 18th to Here (((.........andandandandandandandandandandandandandandandandandand
+################################################
+
+
+target string: The eldest son of William Parker, he was born in Norwich, in St. Saviour's parish.
+predicted string: "" last son of a and and Jr is born in the. England the. Paulan's Parish. He</s>.......... to to....................
+################################################
+
+
+target string: Matthew was sent in 1522 to Corpus Christi College, Cambridge, where he is said to have been contemporary with William Cecil, but Cecil was only two years old at the time.
+predicted string: s a to to.. take Christi.. where, MA he's now to be a looking. the.. who now is still in years ago. this time. That you................
+################################################
+
+
+target string: He commenced MA in 1528, and was one of the Cambridge scholars whom Thomas Wolsey wished to transplant to his newly founded "Cardinal College" at Oxford.
+predicted string: II's toJ the minutes. and it still of the first's. I Jeffersonff wrote to see. the family built companyNewinal"" in the.I
+################################################
+
+
+target string: Adolf Otto Reinhold Windaus (December 25, 1876 - June 9, 1959) was a significant German chemist.
+predicted string: ItItriano ishardttyen19 15, 201794 - January 4, 1960) is born German contributor industrial.He</s>............................
+################################################
+
+
+target string: He won a Nobel Prize in Chemistry in 1928.
+predicted string: "" said't second Peace for 1989. 2015. Here...........................................
+################################################
+
+
+target string: Jack Kerouac (March 12, 1922 - October 21, 1969) was an American novelist, writer, poet, artist, and part of the Beat Generation.
+predicted string: ""ieouac:19 1, 2018) January 1, 2018) is a American football and poet and and, and and and actor- the original Generation.He
+################################################
+
+
+target string: During Kerouac's time at Columbia University, Burroughs and Kerouac got into trouble with the law for failing to report a murder; this incident formed the basis of a mystery novel the two collaborated on in 1945 entitled And the Hippos Were Boiled in
+predicted string: ItIt themitac's speech in the,, herages and Iouac were along a. the same. being to pay. crime.</s> is. the basis of the lawsuit.. two had on. the. " Then Beginningo. Bornomer.</s>
+################################################
+
+
+target string: In between his sea voyages, Kerouac stayed in New York with friends from Fordham.
+predicted string: "" the, two legsages, hemitac has in the York. his. the.. He</s>...........2.. to to to to to to to to to to to to to to to to to to to
+################################################
+
+
+target string: The book was awarded the 1957 Pulitzer Prize for Biography.
+predicted string: ItIt other ends written to title Pulitzer Prize for literatureography. Itre is.....2. " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " "
+################################################
+
+
+target string: In 1958, Kennedy published the first edition of his book A Nation of Immigrants, closely following his involvement in the Displaced Persons Act and the 1957 bill to bring families together.
+predicted string: ItIt the, he was a book book of the book. New of Wolvesigrants. which followed the father. the Vietnampat. Movement. other following</s>.</s> it together.I
+################################################
+
+
+target string: After World War II, Kennedy entered politics (partly to fill the void of his popular brother, Joseph P. Kennedy, Jr., on whom his family had pinned many of their hopes but who was killed in the war).
+predicted string: ItIt that Cup II, I's the.andially) get in void) a father father) John). Kennedy) Jr.) who the he father has lived the of the hopes) he</s> still in the war)
+################################################
+
+
+target string: In 1946, Representative James Michael Curley vacated his seat in an overwhelmingly Democratic district to become mayor of Boston and Kennedy ran for that seat, beating his Republican opponent by a large margin.
+predicted string: ItIt the, he John Mc McDonaldran said the seat. the exchange Republican state. make mayor. San. later's for re position. too him father opponent. a landslide margin.I
+################################################
+
+
+target string: He was reelected twice, but had a mixed voting record, often diverging from President Harry S. Truman and the rest of the Democratic Party.
+predicted string: ItIt said born- to. in he to different bag record. including withging from the Trump S. Truman. others rest of the party Party.I
+################################################
+
+
+target string: In the spring of 1941, Kennedy volunteered for the U.S. Army, but was rejected, mainly because of his troublesome back.
+predicted string: ItIt the meantime, 2018, he was for the first.S. Navy. and he killed. and because of his age temper.Nowre...464646..ororandandandorororororandandandandandandandand
+################################################
+
+
+target string: However, the U.S. Navy accepted him in September of that year.
+predicted string: ItIt, it most.S. Navy is the. the. this year.Here....2222,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+################################################
+
+
+target string: He participated in various commands in the Pacific Theater and earned the rank of lieutenant, commanding a patrol torpedo boat or PT boat.
+predicted string: ItIt's in the ways and the past.. in a following of Sergeant. which officer team... helicopter boat.I
+################################################
+
+
+target string: He was born in Overisel, Michigan.
+predicted string: "" said not in theland, Germany. He</s> is...................... is....................
+################################################
+
+
+target string: In 1923 he was awarded the inaugural Bôcher Memorial Prize by the American Mathematical Society.
+predicted string: ItIt the, said born the title award.nt Award. the United Associationical Association. Here is.....andandandandandandand..... -.. and and. and and and and and and and and and and
+################################################
+
+
+target string: The mathematician Garrett Birkhoff (1911-1996) was his son.
+predicted string: ItIt other is Hnout says1953-2018) is born name.He</s>.....................................
+################################################
+
+
+target string: He later became an educator, teaching music theory at the University of the District of Columbia; he was also director of the District of Columbia Music Center jazz workshop band.
+predicted string: ItIt's added a expert. and at and and the University of California South of Columbia.</s> also also a of
+################################################
+
+
+target string: John Ellis "Jeb" Bush (born February 11, 1953), a Republican, is the forty-third and current Governor of Florida.
+predicted string: ItIt De:I." Williams is19 in 4, 1932) is former, said the leader-second person final leader of California. He</s> is.............andandand...andandandandand
+################################################
+
+
+target string: He is a prominent member of the Bush family, the younger brother of President George W. Bush and the second son of former President George H. W. Bush and Barbara Bush.
+predicted string: ItIt said not very figure of the group family. and second brother of President Bush H. Bush. the son son of Senator President Bush H. Bush. Bush. his Bush.I
+################################################
+
+
+target string: After earning his degree, Bush went to work in an entry level position in the international division of Texas Commerce Bank, which was run by Ben Love.
+predicted string: ItIt that that second, heman on work for the office- position. the area trade. the... where is based by Mricio.He
+################################################
+
+
+target string: Following the 1980 presidential election, Bush and his family moved to Miami-Dade County, Florida.
+predicted string: II the games election, the said his team moved to California.Dade County. Florida. Bushre...4646isisisisisistwo.orororororororororororor..andandandandandand
+################################################
+
+
+target string: He took a job in real estate with Armando Codina, a 32-year-old Cuban immigrant and self-made American millionaire.
+predicted string: ItIt said a look at the estate. aando.ice. and company-year-old from.. former-made millionaire..He</s>..............andandand.v.. to to to to
+################################################
+
+
+target string: Bush co-founded the first charter school in the State of Florida: Liberty City Charter School, a grades K-6 elementary school.
+predicted string: ItItman-founder the group " school in the world of Texas. " City. School. Inc three 1-3 school school.It</s> is</s>.............bbbbbbbbbBb
+################################################
+
+
+target string: [4] Situated in Liberty City, Dade County, the school is located just outside of greater Miami, in an area plagued by poverty.
+predicted string: ItItT] I down in the City, it. County. California area is called at off the the New. and the area known by flooding. It tr is..dedededededegandandandandgandandandandandandandand
+################################################
+
+
+target string: The co-founder, working alongside Bush as a partner, was T. Williard Fair, a well-known local black activist and head of the Greater Miami Urban League.
+predicted string: ItIt other-worker of who with other, well member, is namedoniJard.child who member-known expert politician market. politician of the Black New Area Renew. He</s> is.gggggandandandandand.gg...
+################################################
+
+
+target string: Governor Buddy MacKay (55% to 45%) to become governor, after courting moderate voters and Hispanics.
+predicted string: ItItor's HP saysDth of)%) and the the of and whichting for to. getting. Here is((((inginging.....andandandandandandandandandandandandandandandandand
+################################################
+
+
+target string: He then enrolled at Phillips Andover, a private boarding school in Massachusetts already attended by his brother George.
+predicted string: ItIt said said in the 66 Company. where company school school. Massachusetts. known by many family..Now</s>...g............bbbbbbbbbbBbbb.b
+################################################
+
+
+target string: At the urging of his wife, Columba, a devout Mexican Catholic, the Protestant Bush became a Roman Catholic.
+predicted string: II least end of others friends, heian, he man Christian Catholic, he man andman the member Catholic. Heira is.ggggg46gggorororororororororor((orundundundundundor
+################################################
+
+
+target string: Bush attended the University of Texas at Austin, where he graduated Phi Beta Kappa with a Bachelor's degree in Latin American Studies in 1973, taking only two and a half years to complete his work, and obtaining generally excellent grades.
+predicted string: ItItman the event of California at Austin. where he studied in. Kappa. a degree's degree in Business American Studies. 2002. and up one years a half years. get. degree. respectively he a similar results.He
+################################################
+
+
+target string: He regularly delivers speeches in both English and Spanish due to the large number of Spanish speaking residents of Florida.
+predicted string: "" said uses this on this areas and Spanish. to the fact number of people speakers people in the. For tr is is is((</s>andororandandandororororandandororandandandand((andandandandandand
+################################################
+
+
+target string: Their three children, now grown, are George P. (recently married), John E. "Jeb" Bush Jr. and Noelle.
+predicted string: "" lives- are including in up are still,. andGeorgely)) George (. (John." ( (. ( John. ( ( tr....(gandandandandandandandandandandandandandandandandand
+################################################
+
+
+target string: In November 1977 he was sent to the Venezuelan capital of Caracas, in South America, to open a new operation for the bank.
+predicted string: ItIt the,, said still to the United embassy to Manacas. where which Carolina. to find a new office. the company. Here is..46....andandandandand.andandandand...andandandandand
+################################################
+
+
+target string: When Bush was six years old, the family moved to Houston, Texas.
+predicted string:  youy talking years ago, he same lived to California. and. Now tr...inghashashaspppv..bp. to..hhs tos.shhsh and and and and and and and and and
+################################################
+
+
+target string: Bush stayed in Houston with another family to finish the school year, and spent most summers and holidays at the family estate, known as the Bush Compound.
+predicted string: ItItwick in the for his friend. celebrate out job year. and then the of in years with home beach's. including as " " Familyound.I
+################################################
+
+
+target string: When Bush was seventeen, he went to Leon, Mexico, as part of his school's student exchange program.
+predicted string: ItIt you is alive, he said to school. Illinois. where a of a first trip " tour program.Now</s>......46........................
+################################################
+
+
+target string: While attending a motorcycle race, he met a local girl named Columba Garnica Gallo, whom he eventually married.
+predicted string: ItIt we the meeting club, I said a man man who Melissaa.ett.ardo. who he said recognized.Shere is...........vvvvvbbbbbb.2b10.
+################################################
+
+
+target string: Jeb Bush was born in Midland, Texas, where his father was running an oil drilling company.
+predicted string: ItItoh Bush: born in thistown, Texas. and he father is born a oil company company. He</s> is..g.ing.ing.vv...und.................
+################################################
+
+

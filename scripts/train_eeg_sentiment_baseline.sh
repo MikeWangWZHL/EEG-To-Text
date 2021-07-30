@@ -1,0 +1,1 @@
+python3 train_sentiment_baseline.py --model_name BaselineMLP --num_epoch 20 -lr 0.00005 -b 32 -s ./checkpoints/eeg_sentiment -cuda cuda:3
