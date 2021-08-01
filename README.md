@@ -11,11 +11,15 @@ run `bash ./scripts/prepare_dataset.sh` to preprocess `.mat` files and prepare s
 ## Usage Example
 ### Open vocabulary EEG-To-Text Decoding
 To train an EEG-To-Text decoding model, run `bash ./scripts/train_decoding.sh`.
+
 To evaluate the trained EEG-To-Text decoding model from above, run `bash ./scripts/eval_decoding.sh`.
+
 For detailed configuration of the available arguments, please refer to function `get_config(case = 'train_decoding')` in `/config.py`
 ### Zero-shot sentiment classification pipeline 
 We first train the decoder and the classifier individually, and then we evaluate the pipeline on ZuCo task1-SR data.
+
 To run the whole training and evaluation process, run `bash ./scripts/train_eval_zeroshot_pipeline.sh`.
+
 For detailed configuration of the available arguments, please refer to function `get_config(case = 'eval_sentiment')` in `/config.py`
 
 ## Citation
