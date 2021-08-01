@@ -12,6 +12,7 @@ def str2bool(v):
 
 def get_config(case):
     if case == 'train_decoding': 
+        # args config for training EEG-To-Text decoder
         parser = argparse.ArgumentParser(description='Specify config args for training EEG-To-Text decoder')
         
         parser.add_argument('-m', '--model_name', help='choose from {BrainTranslator, BrainTranslatorNaive}', default = "BrainTranslator" ,required=True)
@@ -41,6 +42,7 @@ def get_config(case):
         args = vars(parser.parse_args())
 
     elif case == 'train_sentiment_baseline':
+        # args config for training EEG-based sentiment baselines
         parser = argparse.ArgumentParser(description='Specify config args for training EEG-To-Text decoder')
         
         parser.add_argument('-m', '--model_name', help='choose from {BaselineMLP, BaselineLSTM, NaiveFinetuneBert}', default = "NaiveFinetuneBert" ,required=True)
@@ -55,6 +57,7 @@ def get_config(case):
         args = vars(parser.parse_args())
         
     elif case == 'train_sentiment_textbased': 
+        # args config for training text-based sentiment classification models
         parser = argparse.ArgumentParser(description='Specify config args for training text-based sentiment classifiers')
         parser.add_argument('-d', '--dataset_name', help='zero-shot setting: using external dataset from stanford sentiment treebank, pass in SST; to use ZuCo\'s own text-sentiment pairs, pass in ZuCo', default = "SST" ,required=True)
         parser.add_argument('-m', '--model_name', help='choose from {pretrain_Bert, pretrain_RoBerta, pretrain_Bart}', default = "pretrain_Bart" ,required=True)
@@ -69,6 +72,7 @@ def get_config(case):
         args = vars(parser.parse_args())
         
     elif case == 'eval_decoding':
+        # args config for evaluating EEG-To-Text decoder
         parser = argparse.ArgumentParser(description='Specify config args for evaluate EEG-To-Text decoder')
         parser.add_argument('-checkpoint', '--checkpoint_path', help='specify model checkpoint' ,required=True)
         parser.add_argument('-conf', '--config_path', help='specify training config json' ,required=True)
@@ -76,15 +80,16 @@ def get_config(case):
         args = vars(parser.parse_args())
         
     elif case == 'eval_sentiment':
+        # args config for sentiment classification models
         parser = argparse.ArgumentParser(description='Specify config args for evaluate EEG-based sentiment classification, including Zero-shot pipeline')
-        
+        # choose model_name = 'ZeroShotSentimentDiscovery' to evaluate Zero-shot pipeline
         parser.add_argument('-m', '--model_name', help='choose from {BaselineMLP, BaselineLSTM, NaiveFinetuneBert, FinetunedBertOnText, FinetunedRoBertaOnText, FinetunedBartOnText, ZeroShotSentimentDiscovery}', default = "ZeroShotSentimentDiscovery" ,required=True)
-        parser.add_argument('-checkpoint', '--checkpoint_path', help='specify model checkpoint' ,required=False)
-        parser.add_argument('-conf', '--config_path', help='specify model config json' ,required=False)
-        parser.add_argument('-checkpoint_DEC', '--decoder_checkpoint_path', help='specify decoder checkpoint for Zero-shot pipeline ', required=False)
-        parser.add_argument('-checkpoint_CLS', '--classifier_checkpoint_path', help='specify classifier checkpoint for Zero-shot pipeline ', required=False)
-        parser.add_argument('-conf_DEC', '--decoder_config_path', help='specify decoder config json' ,required=False)
-        parser.add_argument('-conf_CLS', '--classifier_config_path', help='specify classifier config json' ,required=False)
+        parser.add_argument('-checkpoint', '--checkpoint_path', help='specify model checkpoint' ,required=False) # required if NOT evaluating Zero-shot pipeline
+        parser.add_argument('-conf', '--config_path', help='specify model config json' ,required=False) # required if NOT evaluating Zero-shot pipeline
+        parser.add_argument('-checkpoint_DEC', '--decoder_checkpoint_path', help='specify decoder checkpoint for Zero-shot pipeline ', required=False) # required if evaluating Zero-shot pipeline
+        parser.add_argument('-checkpoint_CLS', '--classifier_checkpoint_path', help='specify classifier checkpoint for Zero-shot pipeline ', required=False) # required if evaluating Zero-shot pipeline
+        parser.add_argument('-conf_DEC', '--decoder_config_path', help='specify decoder config json' ,required=False) # required if evaluating Zero-shot pipeline
+        parser.add_argument('-conf_CLS', '--classifier_config_path', help='specify classifier config json' ,required=False) # required if evaluating Zero-shot pipeline
         parser.add_argument('-subj', '--subjects', help='use all subjects or specify a particular one', default = 'ALL', required=False)
         parser.add_argument('-eeg', '--eeg_type', help='choose from {GD, FFD, TRT}', default = 'GD', required=False)
         parser.add_argument('-band', '--eeg_bands', nargs='+', help='specify freqency bands', default = ['_t1','_t2','_a1','_a2','_b1','_b2','_g1','_g2'] , required=False)

@@ -35,6 +35,8 @@ elif version == 'v2':
     input_mat_files_dir = f'./dataset/ZuCo/{task_name}/Matlab_files' 
 
 output_dir = f'./dataset/ZuCo/{task_name}/pickle'
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 
 """load files"""
 mat_files = glob(os.path.join(input_mat_files_dir,'*.mat'))
