@@ -1,5 +1,6 @@
 # Open Vocabulary EEG-To-Text Decoding and Zero-shot sentiment classification
-
+## Create Environment
+run `conda env create -f environment.yml` to create the conda environment (named "EEGToText") used in our experiments.
 ## Download ZuCo datasets
 - Download ZuCo v1.0 'Matlab files' for 'task1-SR','task2-NR','task3-TSR' from https://osf.io/q3zws/files/ under 'OSF Storage' root,  
 unzip and move all `.mat` files to `/dataset/ZuCo/task1-SR/Matlab_files`,`/dataset/ZuCo/task2-NR/Matlab_files`,`/dataset/ZuCo/task3-TSR/Matlab_files` respectively.
