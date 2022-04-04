@@ -31,3 +31,12 @@ To run the whole training and evaluation process, run `bash ./scripts/train_eval
 For detailed configuration of the available arguments, please refer to function `get_config(case = 'eval_sentiment')` in `/config.py`
 
 ## Citation
+```
+@article{wang2021open,
+  title={Open Vocabulary Electroencephalography-To-Text Decoding and Zero-shot Sentiment Classification},
+  author={Wang, Zhenhailong and Ji, Heng},
+  journal={arXiv preprint arXiv:2112.02690},
+  year={2021},
+  url={https://arxiv.org/abs/2112.02690}
+}
+```
