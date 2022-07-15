@@ -1,4 +1,4 @@
-# Open Vocabulary EEG-To-Text Decoding and Zero-shot sentiment classification
+# [(AAAI 2022) Open Vocabulary EEG-To-Text Decoding and Zero-shot sentiment classification](https://ojs.aaai.org/index.php/AAAI/article/view/20472)
 ## Create Environment
 run `conda env create -f environment.yml` to create the conda environment (named "EEGToText") used in our experiments.
 ## Download ZuCo datasets
