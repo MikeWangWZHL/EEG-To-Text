@@ -32,11 +32,13 @@ For detailed configuration of the available arguments, please refer to function 
 
 ## Citation
 ```
-@article{wang2021open,
-  title={Open Vocabulary Electroencephalography-To-Text Decoding and Zero-shot Sentiment Classification},
+@inproceedings{wang2022open,
+  title={Open vocabulary electroencephalography-to-text decoding and zero-shot sentiment classification},
   author={Wang, Zhenhailong and Ji, Heng},
-  journal={arXiv preprint arXiv:2112.02690},
-  year={2021},
-  url={https://arxiv.org/abs/2112.02690}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={5},
+  pages={5350--5358},
+  year={2022}
 }
 ```
