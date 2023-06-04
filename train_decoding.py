@@ -150,6 +150,8 @@ if __name__ == '__main__':
     task_name = args['task_name']
 
     save_path = args['save_path']
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
 
     skip_step_one = args['skip_step_one']
     load_step1_checkpoint = args['load_step1_checkpoint']
@@ -168,9 +170,17 @@ if __name__ == '__main__':
     if use_random_init:
         save_name = 'randinit_' + save_name
 
-    output_checkpoint_name_best = save_path + f'/best/{save_name}.pt' 
-    output_checkpoint_name_last = save_path + f'/last/{save_name}.pt' 
+    save_path_best = os.path.join(save_path, 'best')
+    if not os.path.exists(save_path_best):
+        os.makedirs(save_path_best)
 
+    output_checkpoint_name_best = os.path.join(save_path_best, f'{save_name}.pt')
+
+    save_path_last = os.path.join(save_path, 'last')
+    if not os.path.exists(save_path_last):
+        os.makedirs(save_path_last)
+
+    output_checkpoint_name_last = os.path.join(save_path_last, f'{save_name}.pt')
 
     # subject_choice = 'ALL
     subject_choice = args['subjects']
@@ -226,9 +236,13 @@ if __name__ == '__main__':
     print()
 
     """save config"""
-    with open(f'./config/decoding/{save_name}.json', 'w') as out_config:
-        json.dump(args, out_config, indent = 4)
+    cfg_dir = './config/decoding/'
 
+    if not os.path.exists(cfg_dir):
+        os.makedirs(cfg_dir)
+
+    with open(os.path.join(cfg_dir,f'{save_name}.json'), 'w') as out_config:
+        json.dump(args, out_config, indent = 4)
 
     if model_name in ['BrainTranslator','BrainTranslatorNaive']:
         tokenizer = BartTokenizer.from_pretrained('facebook/bart-large')

@@ -122,6 +122,9 @@ if dataset_dict == {}:
     quit()
 
 output_dir = f'./dataset/ZuCo/{task_name}/pickle'
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
 output_name = f'{task_name}-dataset.pickle'
 # with open(os.path.join(output_dir,'task1-SR-dataset.json'), 'w') as out:
 #     json.dump(dataset_dict,out,indent = 4)
