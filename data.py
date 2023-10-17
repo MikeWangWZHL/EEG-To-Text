@@ -12,8 +12,8 @@ from fuzzy_match import match
 from fuzzy_match import algorithims
 
 # macro
-ZUCO_SENTIMENT_LABELS = json.load(open('./dataset/ZuCo/task1-SR/sentiment_labels/sentiment_labels.json'))
-SST_SENTIMENT_LABELS = json.load(open('./dataset/stanfordsentiment/ternary_dataset.json'))
+#ZUCO_SENTIMENT_LABELS = json.load(open('./dataset/ZuCo/task1-SR/sentiment_labels/sentiment_labels.json'))
+#SST_SENTIMENT_LABELS = json.load(open('./dataset/stanfordsentiment/ternary_dataset.json'))
 
 def normalize_1d(input_tensor):
     # normalize a 1d tensor
@@ -71,10 +71,11 @@ def get_input_sample(sent_obj, tokenizer, eeg_type = 'GD', bands = ['_t1','_t2',
     if 'film.1' in target_string:
         target_string = target_string.replace('film.1','film.')
     
-    if target_string in ZUCO_SENTIMENT_LABELS:
-        input_sample['sentiment_label'] = torch.tensor(ZUCO_SENTIMENT_LABELS[target_string]+1) # 0:Negative, 1:Neutral, 2:Positive
-    else:
-        input_sample['sentiment_label'] = torch.tensor(-100) # dummy value
+    #if target_string in ZUCO_SENTIMENT_LABELS:
+    #    input_sample['sentiment_label'] = torch.tensor(ZUCO_SENTIMENT_LABELS[target_string]+1) # 0:Negative, 1:Neutral, 2:Positive
+    #else:
+    #    input_sample['sentiment_label'] = torch.tensor(-100) # dummy value
+    input_sample['sentiment_label'] = torch.tensor(-100) # dummy value
 
     # get input embeddings
     word_embeddings = []
