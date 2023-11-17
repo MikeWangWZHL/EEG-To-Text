@@ -23,6 +23,11 @@ with open(sentiment_labels_task1_csv_path, 'r') as f:
             label = int(parsed_line[-1].strip())
             sentiment_labels[sent_text] = label
 
-with open('./dataset/ZuCo/task1-SR/sentiment_labels/sentiment_labels.json', 'w') as out:
+output_dir = f'./dataset/ZuCo/task1-SR/sentiment_labels'
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
+with open(os.path.join(output_dir, 'sentiment_labels.json'), 'w') as out:
     json.dump(sentiment_labels,out,indent = 4)
     print('write to ./dataset/ZuCo/task1-SR/sentiment_labels/sentiment_labels.json')
+

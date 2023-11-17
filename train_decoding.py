@@ -24,7 +24,6 @@ def train_model(dataloaders, device, model, criterion, optimizer, scheduler, num
       
     best_model_wts = copy.deepcopy(model.state_dict())
     best_loss = 100000000000
-    
 
     for epoch in range(num_epochs):
         print('Epoch {}/{}'.format(epoch, num_epochs - 1))
@@ -48,43 +47,45 @@ def train_model(dataloaders, device, model, criterion, optimizer, scheduler, num
                 input_mask_invert_batch = input_mask_invert.to(device)
                 target_ids_batch = target_ids.to(device)
                 """replace padding ids in target_ids with -100"""
-                target_ids_batch[target_ids_batch == tokenizer.pad_token_id] = -100 
-              
+                target_ids_batch[target_ids_batch == tokenizer.pad_token_id] = -100
+
                 # zero the parameter gradients
                 optimizer.zero_grad()
 
                 # forward
-                seq2seqLMoutput = model(input_embeddings_batch, input_masks_batch, input_mask_invert_batch, target_ids_batch)
+    	        # track history if only in train
+                with torch.set_grad_enabled(phase == 'train'):
+                    seq2seqLMoutput = model(input_embeddings_batch, input_masks_batch, input_mask_invert_batch, target_ids_batch)
 
-                """calculate loss"""
-                # logits = seq2seqLMoutput.logits # 8*48*50265
-                # logits = logits.permute(0,2,1) # 8*50265*48
+                    """calculate loss"""
+                    # logits = seq2seqLMoutput.logits # 8*48*50265
+                    # logits = logits.permute(0,2,1) # 8*50265*48
 
-                # loss = criterion(logits, target_ids_batch_label) # calculate cross entropy loss only on encoded target parts
-                # NOTE: my criterion not used
-                loss = seq2seqLMoutput.loss # use the BART language modeling loss
+                    # loss = criterion(logits, target_ids_batch_label) # calculate cross entropy loss only on encoded target parts
+                    # NOTE: my criterion not used
+                    loss = seq2seqLMoutput.loss # use the BART language modeling loss
 
-                # """check prediction, instance 0 of each batch"""
-                # print('target size:', target_ids_batch.size(), ',original logits size:', logits.size(), ',target_mask size', target_mask_batch.size())
-                # logits = logits.permute(0,2,1)
-                # for idx in [0]:
-                #     print(f'-- instance {idx} --')
-                #     # print('permuted logits size:', logits.size())
-                #     probs = logits[idx].softmax(dim = 1)
-                #     # print('probs size:', probs.size())
-                #     values, predictions = probs.topk(1)
-                #     # print('predictions before squeeze:',predictions.size())
-                #     predictions = torch.squeeze(predictions)
-                #     # print('predictions:',predictions)
-                #     # print('target mask:', target_mask_batch[idx])
-                #     # print('[DEBUG]target tokens:',tokenizer.decode(target_ids_batch_copy[idx]))
-                #     print('[DEBUG]predicted tokens:',tokenizer.decode(predictions))
+                    # """check prediction, instance 0 of each batch"""
+                    # print('target size:', target_ids_batch.size(), ',original logits size:', logits.size(), ',target_mask size', target_mask_batch.size())
+                    # logits = logits.permute(0,2,1)
+                    # for idx in [0]:
+                    #     print(f'-- instance {idx} --')
+                    #     # print('permuted logits size:', logits.size())
+                    #     probs = logits[idx].softmax(dim = 1)
+                    #     # print('probs size:', probs.size())
+                    #     values, predictions = probs.topk(1)
+                    #     # print('predictions before squeeze:',predictions.size())
+                    #     predictions = torch.squeeze(predictions)
+                    #     # print('predictions:',predictions)
+                    #     # print('target mask:', target_mask_batch[idx])
+                    #     # print('[DEBUG]target tokens:',tokenizer.decode(target_ids_batch_copy[idx]))
+                    #     print('[DEBUG]predicted tokens:',tokenizer.decode(predictions))
                 
-                # backward + optimize only if in training phase
-                if phase == 'train':
-                    # with torch.autograd.detect_anomaly():
-                    loss.backward()
-                    optimizer.step()
+                    # backward + optimize only if in training phase
+                    if phase == 'train':
+                        # with torch.autograd.detect_anomaly():
+                        loss.backward()
+                        optimizer.step()
 
                 # statistics
                 running_loss += loss.item() * input_embeddings_batch.size()[0] # batch loss
@@ -106,6 +107,11 @@ def train_model(dataloaders, device, model, criterion, optimizer, scheduler, num
                 '''save checkpoint'''
                 torch.save(model.state_dict(), checkpoint_path_best)
                 print(f'update best on dev checkpoint: {checkpoint_path_best}')
+                # with torch.set_grad_enabled(False):
+                #     traced_model_1 = torch.jit.trace(model, (torch.rand(1, 56, 840).to(device), torch.randint(1, 56).to(device), torch.rand(1, 56).to(device), torch.rand(1, 56).to(device)))
+                #     traced_model_32 = torch.jit.trace(model, (torch.rand(32, 56, 840).to(device), torch.randint(32, 56).to(device), torch.rand(32, 56).to(device), torch.rand(32, 56).to(device)))
+                # torch.jit.save(traced_model_1, checkpoint_path_best[:-3]+'_1_jit.pt')
+                # torch.jit.save(traced_model_32, checkpoint_path_best[:-3]+'_32_jit.pt')
         print()
 
     time_elapsed = time.time() - since
@@ -150,6 +156,8 @@ if __name__ == '__main__':
     task_name = args['task_name']
 
     save_path = args['save_path']
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
 
     skip_step_one = args['skip_step_one']
     load_step1_checkpoint = args['load_step1_checkpoint']
@@ -168,9 +176,17 @@ if __name__ == '__main__':
     if use_random_init:
         save_name = 'randinit_' + save_name
 
-    output_checkpoint_name_best = save_path + f'/best/{save_name}.pt' 
-    output_checkpoint_name_last = save_path + f'/last/{save_name}.pt' 
+    save_path_best = os.path.join(save_path, 'best')
+    if not os.path.exists(save_path_best):
+        os.makedirs(save_path_best)
 
+    output_checkpoint_name_best = os.path.join(save_path_best, f'{save_name}.pt')
+
+    save_path_last = os.path.join(save_path, 'last')
+    if not os.path.exists(save_path_last):
+        os.makedirs(save_path_last)
+
+    output_checkpoint_name_last = os.path.join(save_path_last, f'{save_name}.pt')
 
     # subject_choice = 'ALL
     subject_choice = args['subjects']
@@ -226,9 +242,13 @@ if __name__ == '__main__':
     print()
 
     """save config"""
-    with open(f'./config/decoding/{save_name}.json', 'w') as out_config:
-        json.dump(args, out_config, indent = 4)
+    cfg_dir = './config/decoding/'
 
+    if not os.path.exists(cfg_dir):
+        os.makedirs(cfg_dir)
+
+    with open(os.path.join(cfg_dir,f'{save_name}.json'), 'w') as out_config:
+        json.dump(args, out_config, indent = 4)
 
     if model_name in ['BrainTranslator','BrainTranslatorNaive']:
         tokenizer = BartTokenizer.from_pretrained('facebook/bart-large')
