@@ -1,3 +1,6 @@
+# IMPORTANT UPDATE NOTE
+There is an **unintentional but critical bug** in the original code. **We appreciate [NeuSpeech/EEG-To-Text](https://github.com/NeuSpeech/EEG-To-Text) for pointing it out and providing the fix.** The bug is in the eval_decoding.py script where it originally uses teacher forcing for evaluation, but a more appropriate evaluation setting should be using model.generate(). We have updated the codebase to fix this bug with the correction contributed by [NeuSpeech](https://github.com/NeuSpeech). Note that the results from .generate() can be worse than the results shown in the paper.
+
 # [(AAAI 2022) Open Vocabulary EEG-To-Text Decoding and Zero-shot sentiment classification](https://arxiv.org/abs/2112.02690)
 ## Create Environment
 run `conda env create -f environment.yml` to create the conda environment (named "EEGToText") used in our experiments.
