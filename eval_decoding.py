@@ -64,15 +64,13 @@ def eval_model(dataloaders, device, tokenizer, criterion, model, output_all_resu
                                        # early_stopping=True
                                        )
             predicted_string=tokenizer.batch_decode(predictions,skip_special_tokens=False)
-            predicted_string=predicted_string.squeeze()
-            
-            predictions=tokenizer.encode(predicted_string)
+            predicted_string=predicted_string[0]
             # print('predicted string:',predicted_string)
             f.write(f'predicted string: {predicted_string}\n')
             f.write(f'################################################\n\n\n')
 
             # convert to int list
-            predictions = predictions.tolist()
+            predictions = tokenizer(predicted_string)["input_ids"]
             truncated_prediction = []
             for t in predictions:
                 if t != tokenizer.eos_token_id:
