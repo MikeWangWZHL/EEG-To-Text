@@ -1,4 +1,4 @@
-# IMPORTANT NOTE (1/19/2023)
+# IMPORTANT NOTE (1/19/2024)
 ## Please STOP using the codebase before further notice
 There is an **unintentional but critical bug** in the original code. **We appreciate [NeuSpeech/EEG-To-Text](https://github.com/NeuSpeech/EEG-To-Text) for pointing it out and providing the fix.** The bug is in the eval_decoding.py script where it originally uses teacher forcing for evaluation, but a more appropriate evaluation setting should be using model.generate(). We have updated the codebase to fix this bug with the correction contributed by [NeuSpeech](https://github.com/NeuSpeech). 
 Note that the results from .generate() **will NOT reproduce** the results shown in the paper. 
