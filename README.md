@@ -3,7 +3,7 @@
 There is an **unintentional but critical bug** in the original code. **We appreciate [NeuSpeech/EEG-To-Text](https://github.com/NeuSpeech/EEG-To-Text) for pointing it out and providing the fix.** The bug is in the eval_decoding.py script where it originally uses teacher forcing for evaluation, but a more appropriate evaluation setting should be using model.generate(). We have updated the codebase to fix this bug with the correction contributed by [NeuSpeech](https://github.com/NeuSpeech). 
 Note that the results from .generate() **will NOT reproduce** the results shown in the paper. 
 
-**(EDIT 1/19/2023)** As there are further [issues](https://github.com/MikeWangWZHL/EEG-To-Text/issues/7) reported, please consider stop using the codebase before we fix the code. Sorry for the inconvenience!
+**(EDIT 1/19/2024)** As there are further [issues](https://github.com/MikeWangWZHL/EEG-To-Text/issues/7) reported, please consider stop using the codebase before we fix the code. Sorry for the inconvenience!
 
 # [(AAAI 2022) Open Vocabulary EEG-To-Text Decoding and Zero-shot sentiment classification](https://arxiv.org/abs/2112.02690)
 ## Create Environment
