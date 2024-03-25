@@ -1,26 +1,48 @@
-# IMPORTANT NOTE (1/19/2024)
-## Please STOP using the codebase before further notice
-There is an **unintentional but critical bug** in the original code. **We appreciate [NeuSpeech/EEG-To-Text](https://github.com/NeuSpeech/EEG-To-Text) for pointing it out and providing the fix.** The bug is in the eval_decoding.py script where it originally uses teacher forcing for evaluation, but a more appropriate evaluation setting should be using model.generate(). We have updated the codebase to fix this bug with the correction contributed by [NeuSpeech](https://github.com/NeuSpeech). 
-Note that the results from .generate() **will NOT reproduce** the results shown in the paper. 
+# IMPORTANT UPDATE (3/25/2024)
+The code is updated following https://github.com/NeuSpeech/EEG-To-Text/tree/master. 
+Please refer to https://github.com/NeuSpeech/EEG-To-Text/tree/master for the latest version of the code (be sure to clone the master branch).
 
-**(EDIT 1/19/2024)** As there are further [issues](https://github.com/MikeWangWZHL/EEG-To-Text/issues/7) reported, please consider stop using the codebase before we fix the code. Sorry for the inconvenience!
+```
+git clone -b master https://github.com/NeuSpeech/EEG-To-Text.git
+```
 
+We thank @Yiqian Yang for fixing the bugs in the original code and providing the new metrics!
+Please also check out their recent paper on decoding brain signals: https://arxiv.org/abs/2403.01748.
+
+
+# what's new?
+we add teacher-forcing and non-teacher forcing, input_noise and not-input-noise conditions in evaluation
+
+fix bugs in original code, so you can run without debugging.
+
+note: new metrics used torchmetrics, which may be different from original one. results and metrics are in ./results folder
+
+**as for my implementation, input noise can get higher or equal scores on bleu, which means the decoding is not effective!**
+We strongly suggest everyone when doing brain decoding text, you should compare your results with input noise!
+*results*
+
+| noise as input | teacher-forcing | bleu-1 | rouge-1f |
+|----------------|-----------------|--------|----------|
+| yes            | yes             | 27.47  | 33.62    |
+| no             | yes             | 27.84  | 33.77    |
+| yes            | no              | 9.23   | 13.99    |
+| no             | no              | 8.87   | 13.56    |
 # [(AAAI 2022) Open Vocabulary EEG-To-Text Decoding and Zero-shot sentiment classification](https://arxiv.org/abs/2112.02690)
 ## Create Environment
 run `conda env create -f environment.yml` to create the conda environment (named "EEGToText") used in our experiments.
 ## Download ZuCo datasets
 - Download ZuCo v1.0 'Matlab files' for 'task1-SR','task2-NR','task3-TSR' from https://osf.io/q3zws/files/ under 'OSF Storage' root,  
-unzip and move all `.mat` files to `/dataset/ZuCo/task1-SR/Matlab_files`,`/dataset/ZuCo/task2-NR/Matlab_files`,`/dataset/ZuCo/task3-TSR/Matlab_files` respectively.
-- Download ZuCo v2.0 'Matlab files' for 'task1-NR' from https://osf.io/2urht/files/ under 'OSF Storage' root, unzip and move all `.mat` files to `/dataset/ZuCo/task2-NR-2.0/Matlab_files`.
+unzip and move all `.mat` files to `~/datasets/ZuCo/task1-SR/Matlab_files`,`~/datasets/ZuCo/task2-NR/Matlab_files`,`~/datasets/ZuCo/task3-TSR/Matlab_files` respectively.
+- Download ZuCo v2.0 'Matlab files' for 'task1-NR' from https://osf.io/2urht/files/ under 'OSF Storage' root, unzip and move all `.mat` files to `~/datasets/ZuCo/task2-NR-2.0/Matlab_files`.
 
 ## Preprocess datasets
 run `bash ./scripts/prepare_dataset.sh` to preprocess `.mat` files and prepare sentiment labels. 
 
-For each task, all `.mat` files will be converted into one `.pickle` file stored in `/dataset/ZuCo/<task_name>/<task_name>-dataset.pickle`. 
+For each task, all `.mat` files will be converted into one `.pickle` file stored in `~/datasets/ZuCo/<task_name>/<task_name>-dataset.pickle`. 
 
-Sentiment dataset for ZuCo (`sentiment_labels.json`) will be stored in `/dataset/ZuCo/task1-SR/sentiment_labels/sentiment_labels.json`. 
+Sentiment dataset for ZuCo (`sentiment_labels.json`) will be stored in `~/datasets/ZuCo/task1-SR/sentiment_labels/sentiment_labels.json`. 
 
-Sentiment dataset for filtered Stanford Sentiment Treebank will be stored in `/dataset/stanfordsentiment/ternary_dataset.json`
+Sentiment dataset for filtered Stanford Sentiment Treebank will be stored in `~/datasets/stanfordsentiment/ternary_dataset.json`
 
 ## Usage Example
 ### Open vocabulary EEG-To-Text Decoding

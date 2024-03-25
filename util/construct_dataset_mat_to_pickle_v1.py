@@ -7,9 +7,13 @@ from tqdm import tqdm
 import numpy as np
 import pickle
 import argparse
+home_directory = os.path.expanduser("~")
+
+rootdir = os.path.join(home_directory,"datasets/ZuCo/task2-NR-2.0/Matlab_files/")
 
 parser = argparse.ArgumentParser(description='Specify task name for converting ZuCo v1.0 Mat file to Pickle')
 parser.add_argument('-t', '--task_name', help='name of the task in /dataset/ZuCo, choose from {task1-SR,task2-NR,task3-TSR}', required=True)
+# parser.add_argument('-d', '--directory', help='', required=True)
 args = vars(parser.parse_args())
 
 
@@ -18,6 +22,7 @@ version = 'v1' # 'old'
 # version = 'v2' # 'new'
 
 task_name = args['task_name']
+# directory = args['directory']
 # task_name = 'task1-SR'
 # task_name = 'task2-NR'
 # task_name = 'task3-TSR'
@@ -28,18 +33,22 @@ print(f'start processing ZuCo {task_name}...')
 
 
 if version == 'v1':
-    # old version 
-    input_mat_files_dir = f'./dataset/ZuCo/{task_name}/Matlab_files' 
+    # old version datasets/ZuCo/task1-SR/Matlab_files
+    input_mat_files_dir = os.path.join(home_directory,f"datasets/ZuCo/{task_name}/Matlab_files")
 elif version == 'v2':
     # new version, mat73 
-    input_mat_files_dir = f'./dataset/ZuCo/{task_name}/Matlab_files' 
+    input_mat_files_dir = os.path.join(home_directory,f'datasets/ZuCo/{task_name}/Matlab_files')
 
-output_dir = f'./dataset/ZuCo/{task_name}/pickle'
+output_dir = os.path.join(home_directory,f"datasets/ZuCo/{task_name}/pickle")
+
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
 """load files"""
-mat_files = glob(os.path.join(input_mat_files_dir,'*.mat'))
+print(input_mat_files_dir)
+
+mat_files = os.listdir(input_mat_files_dir)
+mat_files = [os.path.join(input_mat_files_dir,mat_file) for mat_file in mat_files]
 mat_files = sorted(mat_files)
 
 if len(mat_files) == 0:

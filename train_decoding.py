@@ -12,16 +12,22 @@ from glob import glob
 import time
 import copy
 from tqdm import tqdm
-from transformers import BertLMHeadModel, BartTokenizer, BartForConditionalGeneration, BartConfig, BartForSequenceClassification, BertTokenizer, BertConfig, BertForSequenceClassification, RobertaTokenizer, RobertaForSequenceClassification
+from transformers import BertLMHeadModel, BartTokenizer, BartForConditionalGeneration, BartConfig, \
+    BartForSequenceClassification, BertTokenizer, BertConfig, BertForSequenceClassification, RobertaTokenizer, \
+    RobertaForSequenceClassification
 
 from data import ZuCo_dataset
 from model_decoding import BrainTranslator, BrainTranslatorNaive
 from config import get_config
 
-def train_model(dataloaders, device, model, criterion, optimizer, scheduler, num_epochs=25, checkpoint_path_best = './checkpoints/decoding/best/temp_decoding.pt', checkpoint_path_last = './checkpoints/decoding/last/temp_decoding.pt'):
+
+def train_model(dataloaders, device, model, criterion, optimizer, scheduler, num_epochs=25,
+                checkpoint_path_best='./checkpoints/decoding/best/temp_decoding.pt',
+                checkpoint_path_last='./checkpoints/decoding/last/temp_decoding.pt'):
     # modified from: https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
+    os.makedirs(os.path.dirname(checkpoint_path_best), exist_ok=True)
     since = time.time()
-      
+
     best_model_wts = copy.deepcopy(model.state_dict())
     best_loss = 100000000000
 
@@ -34,13 +40,15 @@ def train_model(dataloaders, device, model, criterion, optimizer, scheduler, num
             if phase == 'train':
                 model.train()  # Set model to training mode
             else:
-                model.eval()   # Set model to evaluate mode
+                model.eval()  # Set model to evaluate mode
 
             running_loss = 0.0
 
             # Iterate over data.
-            for input_embeddings, seq_len, input_masks, input_mask_invert, target_ids, target_mask, sentiment_labels, sent_level_EEG in tqdm(dataloaders[phase]):
-                
+            for (input_embeddings, seq_len, input_masks, input_mask_invert,
+                 target_ids, target_mask, sentiment_labels, sent_level_EEG) in tqdm(dataloaders[phase]):
+                # print(input_embeddings, seq_len, input_masks, input_mask_invert,
+                #  target_ids, target_mask, sentiment_labels, sent_level_EEG)
                 # load in batch
                 input_embeddings_batch = input_embeddings.to(device).float()
                 input_masks_batch = input_masks.to(device)
@@ -53,45 +61,43 @@ def train_model(dataloaders, device, model, criterion, optimizer, scheduler, num
                 optimizer.zero_grad()
 
                 # forward
-    	        # track history if only in train
-                with torch.set_grad_enabled(phase == 'train'):
-                    seq2seqLMoutput = model(input_embeddings_batch, input_masks_batch, input_mask_invert_batch, target_ids_batch)
+                seq2seqLMoutput = model(input_embeddings_batch, input_masks_batch, input_mask_invert_batch,
+                                        target_ids_batch)
 
-                    """calculate loss"""
-                    # logits = seq2seqLMoutput.logits # 8*48*50265
-                    # logits = logits.permute(0,2,1) # 8*50265*48
+                """calculate loss"""
+                # logits = seq2seqLMoutput.logits # 8*48*50265
+                # logits = logits.permute(0,2,1) # 8*50265*48
 
-                    # loss = criterion(logits, target_ids_batch_label) # calculate cross entropy loss only on encoded target parts
-                    # NOTE: my criterion not used
-                    loss = seq2seqLMoutput.loss # use the BART language modeling loss
+                # loss = criterion(logits, target_ids_batch_label) # calculate cross entropy loss only on encoded target parts
+                # NOTE: my criterion not used
+                loss = seq2seqLMoutput.loss  # use the BART language modeling loss
 
-                    # """check prediction, instance 0 of each batch"""
-                    # print('target size:', target_ids_batch.size(), ',original logits size:', logits.size(), ',target_mask size', target_mask_batch.size())
-                    # logits = logits.permute(0,2,1)
-                    # for idx in [0]:
-                    #     print(f'-- instance {idx} --')
-                    #     # print('permuted logits size:', logits.size())
-                    #     probs = logits[idx].softmax(dim = 1)
-                    #     # print('probs size:', probs.size())
-                    #     values, predictions = probs.topk(1)
-                    #     # print('predictions before squeeze:',predictions.size())
-                    #     predictions = torch.squeeze(predictions)
-                    #     # print('predictions:',predictions)
-                    #     # print('target mask:', target_mask_batch[idx])
-                    #     # print('[DEBUG]target tokens:',tokenizer.decode(target_ids_batch_copy[idx]))
-                    #     print('[DEBUG]predicted tokens:',tokenizer.decode(predictions))
-                
-                    # backward + optimize only if in training phase
-                    if phase == 'train':
-                        # with torch.autograd.detect_anomaly():
-                        loss.backward()
-                        optimizer.step()
+                # """check prediction, instance 0 of each batch"""
+                # print('target size:', target_ids_batch.size(), ',original logits size:', logits.size(), ',target_mask size', target_mask_batch.size())
+                # logits = logits.permute(0,2,1)
+                # for idx in [0]:
+                #     print(f'-- instance {idx} --')
+                #     # print('permuted logits size:', logits.size())
+                #     probs = logits[idx].softmax(dim = 1)
+                #     # print('probs size:', probs.size())
+                #     values, predictions = probs.topk(1)
+                #     # print('predictions before squeeze:',predictions.size())
+                #     predictions = torch.squeeze(predictions)
+                #     # print('predictions:',predictions)
+                #     # print('target mask:', target_mask_batch[idx])
+                #     # print('[DEBUG]target tokens:',tokenizer.decode(target_ids_batch_copy[idx]))
+                #     print('[DEBUG]predicted tokens:',tokenizer.decode(predictions))
+
+                # backward + optimize only if in training phase
+                if phase == 'train':
+                    # with torch.autograd.detect_anomaly():
+                    loss.backward()
+                    optimizer.step()
 
                 # statistics
-                running_loss += loss.item() * input_embeddings_batch.size()[0] # batch loss
+                running_loss += loss.item() * input_embeddings_batch.size()[0]  # batch loss
                 # print('[DEBUG]loss:',loss.item())
                 # print('#################################')
-                
 
             if phase == 'train':
                 scheduler.step()
@@ -107,11 +113,6 @@ def train_model(dataloaders, device, model, criterion, optimizer, scheduler, num
                 '''save checkpoint'''
                 torch.save(model.state_dict(), checkpoint_path_best)
                 print(f'update best on dev checkpoint: {checkpoint_path_best}')
-                # with torch.set_grad_enabled(False):
-                #     traced_model_1 = torch.jit.trace(model, (torch.rand(1, 56, 840).to(device), torch.randint(1, 56).to(device), torch.rand(1, 56).to(device), torch.rand(1, 56).to(device)))
-                #     traced_model_32 = torch.jit.trace(model, (torch.rand(32, 56, 840).to(device), torch.randint(32, 56).to(device), torch.rand(32, 56).to(device), torch.rand(32, 56).to(device)))
-                # torch.jit.save(traced_model_1, checkpoint_path_best[:-3]+'_1_jit.pt')
-                # torch.jit.save(traced_model_32, checkpoint_path_best[:-3]+'_32_jit.pt')
         print()
 
     time_elapsed = time.time() - since
@@ -124,6 +125,7 @@ def train_model(dataloaders, device, model, criterion, optimizer, scheduler, num
     model.load_state_dict(best_model_wts)
     return model
 
+
 def show_require_grad_layers(model):
     print()
     print(' require_grad layers:')
@@ -133,6 +135,7 @@ def show_require_grad_layers(model):
             print(' ', name)
 
 if __name__ == '__main__':
+    home_directory = os.path.expanduser("~")
     args = get_config('train_decoding')
 
     ''' config param'''
@@ -223,19 +226,23 @@ if __name__ == '__main__':
     ''' set up dataloader '''
     whole_dataset_dicts = []
     if 'task1' in task_name:
-        dataset_path_task1 = './dataset/ZuCo/task1-SR/pickle/task1-SR-dataset.pickle' 
+        dataset_path_task1 = 'datasets/ZuCo/task1-SR/pickle/task1-SR-dataset.pickle'
+        dataset_path_task1=os.path.join(home_directory,dataset_path_task1)
         with open(dataset_path_task1, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
     if 'task2' in task_name:
-        dataset_path_task2 = './dataset/ZuCo/task2-NR/pickle/task2-NR-dataset.pickle' 
+        dataset_path_task2 = 'datasets/ZuCo/task2-NR/pickle/task2-NR-dataset.pickle'
+        dataset_path_task2=os.path.join(home_directory,dataset_path_task2)
         with open(dataset_path_task2, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
     if 'task3' in task_name:
-        dataset_path_task3 = './dataset/ZuCo/task3-TSR/pickle/task3-TSR-dataset.pickle' 
+        dataset_path_task3 = 'datasets/ZuCo/task3-TSR/pickle/task3-TSR-dataset.pickle'
+        dataset_path_task3=os.path.join(home_directory,dataset_path_task3)
         with open(dataset_path_task3, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
     if 'taskNRv2' in task_name:
-        dataset_path_taskNRv2 = './dataset/ZuCo/task2-NR-2.0/pickle/task2-NR-2.0-dataset.pickle' 
+        dataset_path_taskNRv2 = 'datasets/ZuCo/task2-NR-2.0/pickle/task2-NR-2.0-dataset.pickle'
+        dataset_path_taskNRv2=os.path.join(home_directory,dataset_path_taskNRv2)
         with open(dataset_path_taskNRv2, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
 

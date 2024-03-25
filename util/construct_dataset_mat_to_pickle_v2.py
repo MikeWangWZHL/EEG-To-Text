@@ -6,10 +6,11 @@ from glob import glob
 from tqdm import tqdm
 import pickle
 
+home_directory = os.path.expanduser("~")
+
+rootdir = os.path.join(home_directory,"datasets/ZuCo/task2-NR-2.0/Matlab_files/")
 
 task = "NR"
-
-rootdir = "./dataset/ZuCo/task2-NR-2.0/Matlab_files/"
 
 print('##############################')
 print(f'start processing ZuCo task2-NR-2.0...')
@@ -22,7 +23,7 @@ for file in tqdm(os.listdir(rootdir)):
         file_name = rootdir + file
 
         # print('file name:', file_name)
-        subject = file_name.split("ts")[1].split("_")[0]
+        subject = file_name.split("results")[1].split("_")[0]
         # print('subject: ', subject)
 
         # exclude YMH due to incomplete data because of dyslexia
@@ -121,7 +122,7 @@ if dataset_dict == {}:
     print(f'No mat file found for {task_name}')
     quit()
 
-output_dir = f'./dataset/ZuCo/{task_name}/pickle'
+output_dir = os.path.join(home_directory,f'datasets/ZuCo/{task_name}/pickle')
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 

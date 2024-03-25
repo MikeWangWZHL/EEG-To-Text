@@ -77,6 +77,8 @@ def get_config(case):
         parser.add_argument('-checkpoint', '--checkpoint_path', help='specify model checkpoint' ,required=True)
         parser.add_argument('-conf', '--config_path', help='specify training config json' ,required=True)
         parser.add_argument('-cuda', '--cuda', help='specify cuda device name, e.g. cuda:0, cuda:1, etc', default = 'cuda:0')
+        parser.add_argument('-tf', '--tf', help='use teacher forcing', default = True)
+        parser.add_argument('-n', '--noise', help='use noise as input', default = True)
         args = vars(parser.parse_args())
         
     elif case == 'eval_sentiment':

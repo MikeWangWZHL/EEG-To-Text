@@ -136,8 +136,8 @@ def get_SST_dataset(SST_dir_path, ZuCo_used_sentences, ZUCO_SENTIMENT_LABELS):
 if __name__ == '__main__':
     print('##############################')
     print('start generating stanfordSentimentTreebank ternary sentiment dataset...')
-    SST_dir_path = './dataset/stanfordsentiment/stanfordSentimentTreebank'
-    ZuCo_task1_csv_path = './dataset/ZuCo/task_materials/sentiment_labels_task1.csv'
-    ZUCO_SENTIMENT_LABELS = json.load(open('./dataset/ZuCo/task1-SR/sentiment_labels/sentiment_labels.json'))
+    SST_dir_path = '~/datasets/stanfordsentiment/stanfordSentimentTreebank'
+    ZuCo_task1_csv_path = '~/datasets/ZuCo/task_materials/sentiment_labels_task1.csv'
+    ZUCO_SENTIMENT_LABELS = json.load(open('~/datasets/ZuCo/task1-SR/sentiment_labels/sentiment_labels.json'))
 
     get_SST_dataset(SST_dir_path, ZuCo_task1_csv_path, ZUCO_SENTIMENT_LABELS)
