@@ -1,23 +1,26 @@
 # IMPORTANT UPDATE (3/25/2024)
-The code is updated following https://github.com/NeuSpeech/EEG-To-Text/tree/master. 
-Please refer to https://github.com/NeuSpeech/EEG-To-Text/tree/master for the latest version of the code (be sure to clone the master branch).
+The code is updated following [NeuSpeech](https://github.com/NeuSpeech/EEG-To-Text/tree/master). 
+
+We thank Yiqian Yang for fixing the bugs in the original code and providing the new metrics!
+
+**Please refer to https://github.com/NeuSpeech/EEG-To-Text/tree/master for the latest version of the code (be sure to clone the master branch).**
 
 ```
 git clone -b master https://github.com/NeuSpeech/EEG-To-Text.git
 ```
 
-We thank @Yiqian Yang for fixing the bugs in the original code and providing the new metrics!
-Please also check out their recent paper on decoding brain signals: https://arxiv.org/abs/2403.01748.
 
+Please also check out their recent paper on decoding brain signals: https://arxiv.org/abs/2403.01748
 
+---
 # what's new?
-we add teacher-forcing and non-teacher forcing, input_noise and not-input-noise conditions in evaluation
+[NeuSpeech](https://github.com/NeuSpeech/EEG-To-Text/tree/master) add teacher-forcing and non-teacher forcing, input_noise and not-input-noise conditions in evaluation
 
 fix bugs in original code, so you can run without debugging.
 
 note: new metrics used torchmetrics, which may be different from original one. results and metrics are in ./results folder
 
-**as for my implementation, input noise can get higher or equal scores on bleu, which means the decoding is not effective!**
+**as for the new implementation, input noise can get higher or equal scores on bleu, which means the decoding is not effective!**
 We strongly suggest everyone when doing brain decoding text, you should compare your results with input noise!
 *results*
 
@@ -27,6 +30,7 @@ We strongly suggest everyone when doing brain decoding text, you should compare 
 | no             | yes             | 27.84  | 33.77    |
 | yes            | no              | 9.23   | 13.99    |
 | no             | no              | 8.87   | 13.56    |
+
 # [(AAAI 2022) Open Vocabulary EEG-To-Text Decoding and Zero-shot sentiment classification](https://arxiv.org/abs/2112.02690)
 ## Create Environment
 run `conda env create -f environment.yml` to create the conda environment (named "EEGToText") used in our experiments.
